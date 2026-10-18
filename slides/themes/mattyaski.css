@@ -1,0 +1,263 @@
+/* @theme mattyaski */
+@import 'default';
+
+@font-face {
+    font-family: 'Gen Jyuu Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/GenJyuuGothic-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gen Jyuu Gothic';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('./fonts/GenJyuuGothic-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gen Jyuu Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./fonts/GenJyuuGothic-Bold.woff2') format('woff2');
+}
+
+/* 配色原案 @KawaneRio@mattyaski.co「かわねてぃーが作ったまっちゃすきーのテーマ」 */
+section {
+    --matcha-bg: #252722;
+    --matcha-frame: #3a4432;
+    --matcha-fg: #d1e4d4;
+    --matcha-accent: #5c913b;
+    --matcha-emphasis: #a8ce8d;
+    --matcha-divider: rgba(255, 255, 255, 0.1);
+    --matcha-muted: rgba(209, 228, 212, 0.65);
+    --matcha-link: #62cce5;
+    --matcha-code-bg: rgba(255, 255, 255, 0.05);
+    --matcha-code-fg: #cfff9e;
+    --matcha-pre-bg: #1c1e1a;
+    background: var(--matcha-frame);
+    color: var(--matcha-fg);
+    font-family: 'Gen Jyuu Gothic', 'Hiragino Maru Gothic ProN', 'Hiragino Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.75;
+    padding: 128px 92px 94px;
+    justify-content: center;
+    letter-spacing: 0.015em;
+    isolation: isolate;
+}
+
+section::before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 24px;
+    z-index: -1;
+    border-radius: 24px;
+    background: var(--matcha-bg);
+}
+
+section h1 {
+    position: absolute;
+    top: 65px;
+    left: 92px;
+    right: 92px;
+    margin: 0;
+    color: var(--matcha-fg);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+section h2 {
+    color: var(--matcha-fg);
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+section p,
+section ul,
+section ol {
+    margin: 16px 0;
+}
+
+section li + li {
+    margin-top: 18px;
+}
+
+section li::marker,
+section strong,
+section :is(h1, h2, h3, h4, h5, h6) strong {
+    color: var(--matcha-emphasis);
+}
+
+section strong,
+section :is(h1, h2, h3, h4, h5, h6) strong {
+    font-weight: 700;
+}
+
+section a {
+    color: var(--matcha-link);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+section code {
+    background: var(--matcha-code-bg);
+    color: var(--matcha-code-fg);
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+section pre {
+    background: var(--matcha-pre-bg);
+    border: 1px solid var(--matcha-divider);
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+section pre code {
+    background: transparent;
+    padding: 0;
+}
+
+section blockquote {
+    border-left: 4px solid var(--matcha-accent);
+    color: var(--matcha-fg);
+    padding: 0 0 0 28px;
+    margin: 20px 0;
+}
+
+section blockquote::before,
+section blockquote::after {
+    content: none;
+}
+
+section table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 27px;
+    line-height: 1.6;
+}
+
+section table th,
+section table td {
+    border: 0;
+    border-bottom: 1px solid var(--matcha-divider);
+    padding: 20px 18px;
+    text-align: left;
+}
+
+section table th {
+    color: var(--matcha-emphasis);
+    font-weight: 600;
+}
+
+section table tr,
+section table tr:nth-child(2n) {
+    background: transparent;
+    border: 0;
+}
+
+section header,
+section footer {
+    color: var(--matcha-muted);
+    font-size: 16px;
+    left: 92px;
+    right: 92px;
+}
+
+section::after {
+    color: var(--matcha-muted);
+    font-size: 16px;
+    right: 52px;
+    bottom: 38px;
+}
+
+section.lead,
+section.statement {
+    text-align: center;
+    padding: 92px;
+}
+
+section.lead h1,
+section.statement h1 {
+    position: static;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.55;
+    margin: 0;
+}
+
+section.lead h1 {
+    padding-bottom: 28px;
+    border-bottom: 2px solid var(--matcha-accent);
+}
+
+section.lead p {
+    font-size: 23px;
+    color: var(--matcha-muted);
+    margin-top: 26px;
+}
+
+section.statement p {
+    font-size: 34px;
+    margin: 0 0 22px;
+}
+
+@keyframes marp-incoming-transition-matcha {
+    from,
+    to {
+        --marp-transition-duration: 300ms;
+        opacity: 1;
+        mix-blend-mode: normal;
+    }
+}
+
+@keyframes marp-outgoing-transition-matcha {
+    from,
+    to {
+        --marp-transition-duration: 300ms;
+        /* 前の背景を残し、画面の暗転と加算合成による明滅を防ぐ。 */
+        opacity: 1;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen {
+    section [data-bespoke-marp-fragment] {
+        transition: opacity 220ms cubic-bezier(0.23, 1, 0.32, 1), transform 220ms cubic-bezier(0.23, 1, 0.32, 1), visibility 220ms linear;
+    }
+
+    section [data-bespoke-marp-fragment='inactive'] {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    section [data-bespoke-marp-fragment='active'] {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    section:where(body[data-bespoke-view='overview'] *) [data-bespoke-marp-fragment] {
+        visibility: visible;
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    section [data-bespoke-marp-fragment] {
+        transform: none;
+        transition: opacity 125ms linear, visibility 125ms linear;
+    }
+}

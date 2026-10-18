@@ -1,0 +1,20 @@
+{
+  "name": "slide-template",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.5",
+  "scripts": {
+    "dev": "PORT=8765 marp --server --watch slides",
+    "build": "pnpm run build:dark && pnpm run build:light && pnpm run build:demo && pnpm run build:motion",
+    "test": "node --test test/*.test.mjs",
+    "build:fonts": "node --input-type=module -e \"import { cpSync } from 'node:fs'; cpSync('slides/fonts', 'dist/fonts', { recursive: true });\"",
+    "build:dark": "pnpm run build:fonts && marp slides/index.md -o dist/slides.html",
+    "build:light": "pnpm run build:fonts && marp slides/light.md -o dist/slides-light.html",
+    "build:demo": "pnpm run build:fonts && marp slides/demo.md -o dist/demo.html",
+    "build:motion": "pnpm run build:fonts && marp slides/motion.md -o dist/motion.html && marp slides/motion-light.md -o dist/motion-light.html",
+    "pdf": "marp slides/index.md --pdf -o dist/slides.pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  }
+}

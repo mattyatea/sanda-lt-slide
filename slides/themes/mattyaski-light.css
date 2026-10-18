@@ -1,0 +1,16 @@
+/* @theme mattyaski-light */
+@import 'mattyaski';
+
+/* ライト配色原案 @nagiRuma@mattyaski.co「まっちゃすきーのテーマ/light版」 */
+section {
+    --matcha-bg: #ebf0e3;
+    --matcha-frame: #c8d6b8;
+    --matcha-fg: #29332a;
+    --matcha-emphasis: #416b28;
+    --matcha-divider: rgba(0, 0, 0, 0.12);
+    --matcha-muted: #596451;
+    --matcha-link: #246d80;
+    --matcha-code-bg: rgba(0, 0, 0, 0.05);
+    --matcha-code-fg: #416b28;
+    --matcha-pre-bg: #dfe7d5;
+}
