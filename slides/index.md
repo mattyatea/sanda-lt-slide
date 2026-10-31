@@ -6,7 +6,7 @@ paginate: true
 transition: matcha 300ms
 lang: ja
 title: 分散型SNSのすゝめ
-description: 自分の好きなことに熱中できるSNSを見つけよう。三田学園文化祭LT会。
+description: 疲れたときの別荘として、自分の「好き」を楽しめるSNSを持ってみよう。三田学園文化祭LT会。
 ---
 
 <!-- _class: lead story-title -->
@@ -129,13 +129,23 @@ description: 自分の好きなことに熱中できるSNSを見つけよう。�
 
 ---
 
+<!-- _class: statement -->
+
+それに...
+
+# 流れてくる話に<br>疲れること ありませんか？
+
+<!-- 聞き手への問いかけ。ニュースや広告、知らない人の話がずっと流れてくると、好きな話をしに来たのに疲れてしまう。 -->
+
+---
+
 <!-- _class: statement question-beat -->
 
 じゃあ もし...
 
-# 好きな話題だけで<br>話せるSNSがあったら？
+# 好きな話だけできる<br>「別荘」があったら？
 
-<!-- ここで少し間を置く。楽しそうだと思ってもらう。 -->
+<!-- ここで少し間を置く。いつものSNSはそのままで、疲れたときや好きな話をしたいときに行ける場所。この「別荘」という言い方を最後まで使います。 -->
 
 ---
 
@@ -421,12 +431,12 @@ Bさんは今のSNSでこの絵も見たい
 
 <!-- _class: story -->
 
-# 自分ならどこに住みたいですか？
+# 自分ならどこに別荘を建てたいですか？
 
 <div class="definition">ゲームの話？　絵の話？　日常の話？</div>
 
 <!--
-機械の詳しい説明はしません。さっきの図の一つひとつのSNSが、ここで言うサーバーです。MisskeyはSNSを作るソフトウェアの名前で、登録先は複数あります。
+機械の詳しい説明はしません。さっきの図の一つひとつのSNSが、ここで言うサーバーです。住所のたとえの「市」に別荘を建てるイメージです。MisskeyはSNSを作るソフトウェアの名前で、登録先は複数あります。
 -->
 
 ---
@@ -435,7 +445,7 @@ Bさんは今のSNSでこの絵も見たい
 
 # つまり...
 
-<div class="takeaways"><div>自分に合う場所を選べる</div><div class="waiting">別の場所の人ともつながれる</div></div>
+<div class="takeaways"><div>居心地のいい場所を選べる</div><div class="waiting">別の場所の人ともつながれる</div></div>
 
 <!--
 最初の一つを覚えてもらいます。
@@ -447,7 +457,7 @@ Bさんは今のSNSでこの絵も見たい
 
 # つまり...
 
-<div class="takeaways"><div>自分に合う場所を選べる</div><div>別の場所の人ともつながれる</div></div>
+<div class="takeaways"><div>居心地のいい場所を選べる</div><div>別の場所の人ともつながれる</div></div>
 
 <!--
 二つ目を同じ構図に足します。
@@ -481,11 +491,11 @@ Bさんは今のSNSでこの絵も見たい
 
 <!-- _class: story everyday -->
 
-# どっちで話してみたいですか？
+# どっちが居心地よさそうですか？
 
 <div class="everyday-pair"><div class="everyday-screen"><div class="everyday-brand">ゲームの話でにぎやか</div><div class="place-post">「新作もう遊んだ？」</div><div class="place-post">「あのボス倒せた〜！」</div><div class="place-post">「攻略の話聞きたい！」</div></div><div class="everyday-screen"><div class="everyday-brand alternate">日常の話をのんびり</div><div class="place-post">「今日の空きれいだった」</div><div class="place-post">「少しずつ絵を描いてる」</div><div class="place-post">「今日は早めに寝よう」</div></div></div>
 
-<div class="everyday-caption">自分が話しやすそうな場所を選べます</div>
+<div class="everyday-caption">にぎやかでも のんびりでも 好きなほうへ</div>
 
 <!-- 架空の投稿例。実在するSNSの雰囲気や利用者の発言を引用したものではない。 -->
 
@@ -505,14 +515,14 @@ Bさんは今のSNSでこの絵も見たい
 
 <!-- _class: story steps -->
 
-# では始めてみましょう
+# 別荘の作り方
 
 1. 気になる場所を探す
 2. 紹介とルールを読む
 3. アカウントを作る
 
 <!--
-14〜17分。自分でSNSを運営する必要はありません。知り合いが使っている場所を聞いたり、Misskeyと好きな話題で検索したりして候補を探します。
+14〜17分。別荘を「作る」といっても、自分でSNSを運営する必要はありません。アカウントを作るだけです。知り合いが使っている場所を聞いたり、Misskeyと好きな話題で検索したりして候補を探します。
 -->
 
 ---
@@ -521,7 +531,7 @@ Bさんは今のSNSでこの絵も見たい
 
 # 登録する前に紹介を読んでみましょう
 
-<div class="place-guide"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="place-about"><b>ゲームと日常の話をのんびり。</b><p>遊んだ話も描いた絵も。<br>自分のペースでどうぞ。</p><div>利用条件・ルール</div><div>運営・お問い合わせ</div></div></div><div class="place-check"><p>ここなら話してみたい？</p><p>ルールや年齢条件は合う？</p><p>困ったときは誰に聞ける？</p></div></div>
+<div class="place-guide"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="place-about"><b>ゲームと日常の話をのんびり。</b><p>遊んだ話も描いた絵も。<br>自分のペースでどうぞ。</p><div>利用条件・ルール</div><div>運営・お問い合わせ</div></div></div><div class="place-check"><p>ここならくつろげそう？</p><p>ルールや年齢条件は合う？</p><p>困ったときは誰に聞ける？</p></div></div>
 
 <!-- 架空の紹介画面。紹介、規約、公開投稿、運営のお知らせと連絡先を確認する。公開投稿が読めない場合は紹介を手がかりにする。 -->
 
@@ -531,7 +541,7 @@ Bさんは今のSNSでこの絵も見たい
 
 # 最初は「それ好き！」だけでも
 
-<div class="side-by-side"><div>まずは投稿を眺めてみる<br>「それ好き！」と反応してみる<br><br>話したくなったら自分も投稿</div><img src="assets/irasutoya/sns.png" alt="SNSの画面"></div>
+<div class="side-by-side"><div>まずは投稿を眺めてみる<br>「それ好き！」と反応してみる<br><br>話したくなったら自分も投稿<br>疲れたらいつでも休みに来る</div><img src="assets/irasutoya/sns.png" alt="SNSの画面"></div>
 
 <!--
 フォローしたい相手が別のSNSなら、相手のプロフィールURLを自分のSNSの検索欄に入れて探せる場合があります。接続制限などで探せない場合もあります。
@@ -557,12 +567,12 @@ Bさんは今のSNSでこの絵も見たい
 
 <!-- _class: statement -->
 
-いま使っているSNSと一緒に
+いつものSNSはそのままで
 
-# もう一つの場所を<br>のぞいてみませんか？
+# 疲れたときの「別荘」<br>作ってみませんか？
 
 <!--
-17〜19分。今のSNSをやめる必要はありません。新しくひとつ、好きなことを話す場所を持つくらいで大丈夫です。
+17〜19分。今のSNSをやめる必要はありません。疲れたときや好きな話をしたいときに行ける別荘を、ひとつ持つくらいで大丈夫です。
 -->
 
 ---
@@ -583,7 +593,9 @@ Bさんは今のSNSでこの絵も見たい
 
 <!-- _class: statement -->
 
-# 自分の「好き」に<br>熱中できる場所を見つけよう
+別荘で
+
+# 自分の「好き」を<br>思いっきり楽しもう
 
 <!--
 19分で締め、残り1分は進行の余裕とします。ありがとうございました。
