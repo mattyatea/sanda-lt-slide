@@ -59,3 +59,38 @@ transition: matcha 300ms
         rmSync(directory, { recursive: true, force: true });
     }
 });
+
+test('story shows one screen at a time and keeps answers off question pages', () => {
+    const directory = mkdtempSync(join(tmpdir(), 'delivery-motion-'));
+    try {
+        const output = join(directory, 'slides.html');
+        execFileSync(process.execPath, ['node_modules/@marp-team/marp-cli/marp-cli.js', 'slides/index.md', '-o', output], { stdio: 'pipe' });
+        const html = readFileSync(output, 'utf8');
+        const slides = [...html.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(match => match[1]);
+        const sceneNames = ['familiar-reader', 'familiar-author', 'other-author', 'other-reader', 'reaction-arrived', 'third-reader'];
+        for (const sceneName of sceneNames) {
+            const scene = slides.find(slide => slide.includes(`data-story-scene="${sceneName}"`));
+            assert.ok(scene, sceneName);
+            assert.equal((scene.match(/class="everyday-screen"/g) || []).length, 1);
+            assert.match(scene, sceneName.startsWith('familiar') ? /やっとボス倒せた〜！！/ : /今日描いた絵、見て〜！/);
+        }
+        const questions = [...html.matchAll(/<section\b[^>]*class="[^"]*question-beat[^"]*"[^>]*>([\s\S]*?)<\/section>/g)];
+        assert.ok(questions.length >= 2);
+        for (const question of questions) {
+            assert.doesNotMatch(question[1], /everyday-screen|everyday-post|everyday-reply/);
+        }
+        assert.doesNotMatch(html, /assets\/photos\//);
+        const network = slides.find(slide => slide.includes('class="network-stage"'));
+        assert.ok(network);
+        assert.equal((network.match(/class="network-node"/g) || []).length, 5);
+        assert.equal((network.match(/class="network-packet"/g) || []).length, 6);
+        assert.doesNotMatch(network, /type="checkbox"/);
+        assert.equal((network.match(/data-icon="mail"/g) || []).length, 7);
+        assert.match(html, /network-delivery 3.5s/);
+        assert.match(html, /animation-play-state:paused/);
+        assert.match(html, /section:where\(\.bespoke-marp-active \*\) \.network-packet/);
+        assert.match(html, /prefers-reduced-motion/);
+    } finally {
+        rmSync(directory, { recursive: true, force: true });
+    }
+});

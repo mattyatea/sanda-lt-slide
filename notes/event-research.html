@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>分散型SNSのすゝめ — 登壇の確認と20分の構成案</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#f5f7f4;color:#203328;line-height:1.85;margin:0;padding:32px 20px}main{max-width:900px;margin:auto}h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.4}h2{margin-top:2em;font-size:1.3rem}p,li{max-width:76ch}.sentence{display:block}.lead,aside{background:#e5eee3;padding:20px;border-radius:12px}table{border-collapse:collapse;width:100%;background:white}th,td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #dce3d9}a{color:#225e43}small{color:#58665b}details{margin-top:20px}blockquote{border-left:3px solid #8aa980;padding-left:16px;margin-left:0}.table-wrap{overflow-x:auto}
+</style>
+<main>
+<small>作業用メモ・未公開 ／ 確認日 2026年10月19日（日本時間）</small>
+<h1>分散型SNSのすゝめ<br>登壇の確認と20分の構成案</h1>
+<p class="lead"><span class="sentence">高校生や専門外のSNS利用者にも、分散型SNSという選択肢と、その楽しさを持ち帰ってもらう発表にする。</span>
+<span class="sentence">本人から「特別に20分の枠を確保してもらっている」と確認できたため、20分で設計する。</span></p>
+
+<h2>今回の登壇について確認できたこと</h2>
+<p><span class="sentence">三田学園文化祭の「知らない世界の話をしよう」は、分野や年齢を問わず、自分の好きな世界を紹介するイベント。</span>
+<span class="sentence">公式サイトは「高校生が知らない世界と出会う教育機会」を掲げている。</span>
+<span class="sentence">本人も今回の会話で、技術者以外を含むSNS利用者に向けて話す方針を示している。</span></p>
+<ul>
+<li>登壇タイトル　分散型SNSのすゝめ</li>
+<li>公式掲載日時　2026年11月2日（月）13時05分〜13時25分</li>
+<li>公式掲載内容　分散型SNSの考え方やMisskeyについて紹介</li>
+<li>公式掲載プロフィール　Misskey開発者 ／ S高等学校3年生</li>
+<li>発表時間　20分。<br>本人が2026年10月19日の会話で、特別に確保された枠と説明。</li>
+</ul>
+<p><span class="sentence">タイムテーブルと登壇者ページは20分表記で、詳細ページの時刻も20分に一致する。</span>
+<span class="sentence">タイムテーブルのモーダルには「10 MIN TALK」が残っているが、資料作成では本人の説明に従い20分を採用する。</span></p>
+
+<h2>Discordで本人が共有していた方針</h2>
+<p><span class="sentence">三田学園文化祭サーバー内の本人の投稿を検索し、今回の発表の意図を確認した。</span></p>
+<blockquote><span class="sentence">9月23日17時55分、以前からLTで話したかった分散型SNSについて、軽く、非常に分かりやすく噛み砕いて話す予定と共有。</span>
+<span class="sentence">9月25日18時13分、「分散型SNSのすゝめ」を話す予定という本人の宣伝投稿を共有。</span>
+<span class="sentence">9月28日0時08分、MisskeyのOSSへの貢献とmisskey.io運営の手伝いを自己紹介し、初めてのLT登壇だと説明。</span></blockquote>
+<p><span class="sentence">本人の立場を紹介する材料はあるが、特定の運営体験や感情を裏付けるエピソードは今回の投稿からは確認していない。</span>
+<span class="sentence">過去の自己紹介にある利用者数やインターン社数は、現在の数値としてスライドへ転記しない。</span></p>
+
+<p class="lead"><span class="sentence">構成の最新版は<a href="talk-outline.html">軽い構成と話すメモ</a>。</span>
+<span class="sentence">本人の追加説明に従い、「好きなことに熱中できるSNSを見つけて楽しんでほしい」を主軸にし、途中に1分休憩を設けている。</span></p>
+<h2>初期の構成案（更新前）</h2>
+<p><span class="sentence">以下は構成の提案で、スライド本文はまだ確定していない。</span>
+<span class="sentence">20分を使い、仕組みの図解、実際の画面、本人の具体的な体験を順番に見せる。</span></p>
+<div class="table-wrap"><table>
+<thead><tr><th>時間</th><th>ページの言葉の案</th><th>話す内容</th></tr></thead>
+<tbody>
+<tr><td>0〜2分</td><td>みなさん、SNS使ってますよね</td><td>自己紹介と、普段のSNSの身近な使い方から入る。</td></tr>
+<tr><td>2〜5分</td><td>SNSにも、いろんな街がある</td><td>サーバーごとに運営者やルール、集まる人が違うことを紹介する。</td></tr>
+<tr><td>5〜8分</td><td>住んでいる街が違っても、つながれる</td><td>異なるサーバーの人をフォローして投稿を読む例を図解する。<br>接続制限や機能の違いがあることも添える。</td></tr>
+<tr><td>8〜12分</td><td>たとえば、Misskey</td><td>投稿とリアクションを実際の画面で見せ、使う楽しさを具体化する。<br>通信に依存しないスクリーンショットを基本にできる。</td></tr>
+<tr><td>12〜15分</td><td>使う側から、つくる側へ</td><td>本人の貢献・運営への関わりを入口に、具体的な体験を一つ紹介する。<br>エピソードは本人への確認後に埋める。</td></tr>
+<tr><td>15〜18分</td><td>自分に合う場所を選ぶ</td><td>ルール、雰囲気、運営、継続性を選ぶ観点と、使ううえでの注意点。</td></tr>
+<tr><td>18〜20分</td><td>気になる街を、のぞいてみませんか</td><td>サーバー紹介やルールを読み、一つ試すための入口を示す。</td></tr>
+</tbody></table></div>
+<p><span class="sentence">記事の「ActivityPub国、Misskey県、サーバーが市」というたとえを活用できる。</span>
+<span class="sentence">説明する際は、MisskeyとMastodonを含むサーバー間の接続が分かる図にし、専門用語の数を抑える。</span></p>
+<aside><strong>次に詰めること</strong><br>
+<span class="sentence">本人が見せたいMisskeyの画面と、使う側・運営する側の具体的な体験を選ぶ。</span>
+<span class="sentence">20分に質疑応答や転換が含まれるか、資料提出の期限・形式・画面比率、配信・録画条件は今回の調査では未確認。</span>
+<span class="sentence">現時点は登壇条件の調査と構成案までで、スライド本文の作成・外部送信は未実施。</span>
+</aside>
+
+<details><summary>根拠と確認範囲</summary>
+<ul>
+<li><a href="https://sglt.under18.dev/">イベント公式サイト</a> — 趣旨、対象、会場。</li>
+<li><a href="https://sglt.under18.dev/timetable">公式タイムテーブル</a> — 11月2日の20分枠と、モーダルの10分表記。</li>
+<li><a href="https://sglt.under18.dev/sessions/decentralized-sns">発表詳細</a> — 日時、タイトル、発表の紹介。</li>
+<li><a href="https://sglt.under18.dev/speakers/macchatee">登壇者紹介</a> — 公開プロフィール。</li>
+<li><a href="https://discord.com/channels/1551126280358068324/1553376156084871169">Discord アナウンス</a> — 10月4日の公式タイムテーブル案内と、変更希望を受け付ける旨。</li>
+<li><a href="https://discord.com/channels/1551126280358068324/1552239046141673522">Discord 登壇希望時刻</a> — 9月23日の枠・タイトルの募集案内。</li>
+<li>Discordのサーバー内検索 from:mattyatea — 47件の結果を2ページ確認。<br>投稿日時と本人の記述を上記に要約。<br>メッセージ固有ID・直接リンクは未取得。</li>
+<li><a href="https://nanasi-apps.xyz/posts/What-is-Misskey/">本人の過去記事</a> — 2024年1月23日公開の説明とたとえ。<br>特徴やメリット・デメリットの節は、取得できた公開本文では見出しのみ。</li>
+<li>本人の会話 — 2026年10月19日、特別に20分枠を確保してもらっていると説明。</li>
+</ul>
+<p><span class="sentence">Discord全履歴・全スレッド・DMを網羅した調査ではない。</span>
+<span class="sentence">発表に関係するサーバー内の案内と本人の投稿、そこから案内された公式サイトを照合した。</span></p>
+</details>
+</main>
+</html>

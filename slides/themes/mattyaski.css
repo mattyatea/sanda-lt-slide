@@ -261,3 +261,250 @@ section.statement p {
         transition: opacity 125ms linear, visibility 125ms linear;
     }
 }
+
+/* Page-driven federation explanation. */
+section.delivery .delivery-stage { position: relative; width: 1096px; height: 440px; }
+section.delivery .server { position: absolute; top: 0; width: 400px; height: 335px; border: 2px solid #5c913b; border-radius: 24px; padding: 22px; box-sizing: border-box; background: #30382b; }
+section.delivery .server-a { left: 0; }
+section.delivery .server-b { right: 0; border-color: #62cce5; background: #26383b; }
+section.delivery .server span { font-size: 25px; }
+section.delivery .person { font-size: 29px; margin-top: 18px; display: flex; align-items: center; gap: 12px; height: 52px; }
+section.delivery small { font-size: 19px; color: #a4b7a5; }
+section.delivery .connection { position: absolute; left: 410px; top: 100px; width: 276px; text-align: center; font-size: 24px; color: #a8ce8d; }
+section.delivery .post-copy, section.delivery .post-original { position: absolute; width: 332px; box-sizing: border-box; padding: 15px 22px; border-radius: 16px; font-size: 23px; line-height: 1.5; background: #d1e4d4; color: #252722; top: 210px; left: 730px; box-shadow: 0 8px 24px #0003; }
+section.delivery.deliver .post-copy, section.delivery.reply .post-copy { left: 34px; }
+section.delivery .post-original { font-size: 21px; background: #afc6ce; }
+section.delivery .reply-bubble { position: absolute; left: 375px; top: 300px; padding: 12px 24px; background: #a8ce8d; color: #252722; border-radius: 30px; font-size: 24px; }
+section.delivery .delivery-caption { position: absolute; top: 376px; width: 100%; text-align: center; font-size: 28px; }
+@media screen {
+    ::view-transition-group(delivery-post) { animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
+}
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(delivery-post) { animation-duration: 1ms !important; }
+}
+section.delivery .follow-chip { position: absolute; top: 202px; left: 34px; width: 332px; padding: 12px 20px; box-sizing: border-box; text-align: center; font-size: 23px; border-radius: 30px; background: #a8ce8d; color: #252722; }
+section.delivery.follow .follow-chip { left: 34px; }
+section.delivery.write .follow-chip { display: none; }
+@media screen {
+    ::view-transition-group(follow-request) { animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
+}
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(follow-request) { animation-duration: 1ms !important; }
+}
+
+/* Match the reference decks: short centered language, isolated illustrations,
+   and additional elements on consecutive slides rather than decorative panels. */
+section.story { text-align: center; }
+section.story h1 { text-align: center; font-size: 38px; }
+section.story-title h1 { font-size: 48px; }
+section.story-title p { font-size: 25px; }
+section.statement h1 { font-size: 48px; font-weight: 400; }
+section.statement p { font-size: 34px; font-weight: 400; }
+section .illustration-row { display: flex; justify-content: center; align-items: flex-end; gap: 46px; }
+section .illustration-row figure { margin: 0; width: 290px; }
+section .illustration-row img { width: 260px; height: 275px; object-fit: contain; }
+section .illustration-row figcaption { font-size: 28px; margin-top: 18px; white-space: nowrap; }
+section .illustration-row .waiting { visibility: hidden; }
+section .illustration-row.two { gap: 120px; }
+section .illustration-row.two figure { width: 380px; }
+section .side-by-side { display: flex; gap: 90px; align-items: center; justify-content: center; font-size: 38px; line-height: 1.8; }
+section .side-by-side img { width: 290px; height: 390px; object-fit: contain; }
+section .single-illustration img { width: 260px; height: 290px; object-fit: contain; }
+section .single-illustration div { font-size: 30px; }
+section .definition { font-size: 39px; line-height: 2; }
+section.steps ol { width: fit-content; margin: auto; text-align: left; font-size: 38px; }
+section .note-example { width: 790px; height: 380px; margin: 0 auto; padding: 30px 38px 20px; box-sizing: border-box; background: #30372f; border: 1px solid #52614b; border-radius: 18px; text-align: left; }
+section .note-user { display: flex; align-items: center; gap: 16px; font-size: 25px; line-height: 1.5; }
+section .note-avatar { font-size: 34px; background: #5b714a; border-radius: 14px; padding: 8px 13px; }
+section .note-user small { display: block; color: #a7b6a2; font-size: 18px; }
+section .note-public { margin-left: auto; font-size: 19px; }
+section .note-text { font-size: 31px; line-height: 1.8; margin: 25px 0; }
+section .note-actions { font-size: 24px; color: #a4b497; margin-top: 20px; }
+section .reactions { display: flex; gap: 14px; font-size: 24px; }
+section .reactions span { border-radius: 8px; background: #465b39; padding: 3px 15px; }
+section.delivery .server { height: 350px; }
+section.delivery .post-copy, section.delivery .post-original { font-size: 21px; }
+section.delivery .reply-bubble { top: 318px; }
+section.network-slide { padding-top: 120px; padding-bottom: 80px; justify-content: flex-start; }
+section.network-slide h1 { text-align: left; font-size: 34px; right: 290px; }
+section .network-stage { position: relative; width: 1096px; height: 470px; }
+section .network-stage > svg { position: absolute; inset: 0; width: 1096px; height: 510px; overflow: visible; }
+section .network-links { fill: none; stroke: #85957b; stroke-width: 3; stroke-dasharray: 8 9; }
+section .network-node { position: absolute; width: 280px; height: 100px; box-sizing: border-box; border: 2px solid #91b574; background: #303a2a; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; z-index: 2; }
+section .network-node b { font-size: 25px; font-weight: 500; }
+section .network-node span { font-size: 25px; letter-spacing: 10px; }
+section .network-packet { position: absolute; left: -19px; top: -17px; z-index: 1; color: #252722; background: #c7e8b0; border-radius: 12px; width: 38px; height: 34px; line-height: 34px; font-size: 26px; transform: translate(var(--xm),var(--ym)); }
+section .network-key { font-size: 25px; margin-top: 0; }
+@keyframes network-delivery {
+    0%, 8% { transform: translate(var(--x0),var(--y0)); opacity: 0; }
+    15% { opacity: 1; }
+    48% { transform: translate(var(--xm),var(--ym)); opacity: 1; }
+    82% { opacity: 1; }
+    92%, 100% { transform: translate(var(--x1),var(--y1)); opacity: 0; }
+}
+@keyframes network-flow { to { stroke-dashoffset: -68; } }
+@media screen and (prefers-reduced-motion: no-preference) {
+    section:where(.bespoke-marp-active *) .network-packet { animation: network-delivery 3.5s linear infinite; animation-delay: var(--delay); }
+    section:where(.bespoke-marp-active *) .network-links { animation: network-flow 3s linear infinite; }
+    section:where(body[data-bespoke-view='overview'] *) .network-packet,
+    section:where(body[data-bespoke-view='overview'] *) .network-links { animation-play-state: paused; }
+}
+@media (prefers-reduced-motion: reduce), print {
+    section .network-packet, section .network-links { animation: none !important; }
+    section .network-packet { opacity: 1; }
+}
+
+section .note-time { margin-left: auto; color: #a7b6a2; font-size: 19px; }
+section .note-actions { display: flex; justify-content: space-between; padding-right: 25px; }
+section .note-actions svg { width: 27px; height: 27px; display: block; }
+section .network-packet { display: flex; align-items: center; justify-content: center; }
+section .network-packet svg { width: 25px; height: 25px; }
+section .network-key svg { width: 27px; height: 27px; vertical-align: -5px; margin-right: 8px; }
+
+section.profile-slide h1 { text-align: left; }
+section .profile-layout { display: flex; align-items: center; justify-content: space-between; gap: 70px; }
+section .profile-copy { text-align: left; flex: 1; }
+section .profile-name { font-size: 44px; margin-bottom: 8px; }
+section .profile-description { font-size: 30px; color: var(--matcha-emphasis); }
+section .profile-copy p { font-size: 28px; line-height: 1.9; margin: 25px 0; }
+section .profile-handle { font-size: 23px; color: var(--matcha-muted); }
+section .profile-portrait { width: 315px; height: 420px; object-fit: contain; border-radius: 14px; }
+section .note-avatar-image { width: 64px; height: 64px; object-fit: cover; object-position: 50% 40%; border-radius: 14px; }
+
+section .diagram-avatar { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; object-position: 50% 40%; }
+section.delivery .post-copy small { font-size: 18px; color: #42513e; }
+section .reactions-placeholder { visibility: hidden; }
+section .takeaways { font-size: 34px; line-height: 1.8; }
+section .takeaways > div { margin-top: 24px; }
+section .takeaways .waiting { visibility: hidden; }
+
+/* The address analogy expands from two people to cities and provinces. */
+section.geography .geo-people { display: flex; justify-content: space-evenly; gap: 90px; }
+section.geography .geo-people > div { display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 28px; }
+section.geography .geo-people img { width: 270px; height: 275px; object-fit: contain; }
+section.geography .geo-people b { font-size: 36px; }
+section.geography .geo-country { border: 2px solid #a8ce8d; border-radius: 24px; padding: 24px 30px; background: #252e24; font-size: 29px; }
+section.geography small { font-size: 22px; font-weight: 400; margin-left: 20px; color: #c0cebb; }
+section.geography .geo-province { margin-top: 20px; padding: 20px 24px; border: 2px solid #668b53; border-radius: 18px; background: #30382b; flex: 1; }
+section.geography .geo-cities { display: flex; gap: 24px; margin-top: 20px; }
+section.geography .geo-cities > div { flex: 1; border-radius: 12px; padding: 16px; background: #d1e4d4; color: #252722; text-align: center; }
+section.geography .geo-cities span { display: block; margin-top: 10px; font-size: 26px; }
+section.geography p { font-size: 26px; text-align: center; margin: 20px 0 0; }
+section.geography .geo-provinces { display: flex; align-items: stretch; gap: 18px; }
+section.geography .geo-provinces .geo-province:first-child { flex: 1.6; }
+section.geography .geo-provinces .geo-province:last-child { border-color: #62cce5; background: #26383b; }
+section.geography .geo-cross { align-self: center; font-size: 44px; color: #a8ce8d; }
+
+/* Twemoji reactions: static for export, live updates in the HTML presentation. */
+section .live-reactions { gap: 10px; min-height: 43px; }
+section .live-reactions .live-reaction { display: inline-flex; align-items: center; gap: 8px; min-width: 55px; padding: 5px 10px; }
+section .live-reactions .reaction-count { padding: 0; background: transparent; font-variant-numeric: tabular-nums; }
+section .live-reactions img { width: 29px; height: 29px; object-fit: contain; }
+section .live-reactions.is-live .live-reaction[hidden] { display: none; }
+
+/* Follow the same post across two different timelines before naming the mechanism. */
+section .misskey-intro { margin: -16px 0 18px; text-align: center; font-size: 26px; }
+section.shared-post h1 { font-size: 40px; }
+section .shared-origin { text-align: center; font-size: 26px; color: #a8ce8d; margin-bottom: 20px; }
+section .shared-screens { display: flex; justify-content: center; gap: 60px; }
+section .feed-screen { width: 430px; border: 2px solid #668b53; border-radius: 18px; overflow: hidden; background: #30382b; text-align: left; }
+section .feed-screen:last-child { border-color: #62cce5; background: #26383b; }
+section .feed-top { padding: 14px 24px; background: #465b39; font-size: 25px; font-weight: 700; }
+section .feed-screen:last-child .feed-top { background: #36535b; }
+section .feed-screen p { margin: 14px 24px; font-size: 22px; }
+section .feed-filler { margin: 16px 24px; font-size: 20px; color: #a7b6a2; }
+section .shared-note { margin: 16px; padding: 18px; border: 2px solid #a8ce8d; border-radius: 12px; background: #d1e4d4; color: #252722; }
+section .shared-note b { display: block; font-size: 22px; margin-bottom: 12px; }
+section .shared-note span { font-size: 25px; }
+
+/* Begin with the familiar case; retain the same people and post in the next scene. */
+section.delivery .familiar-home { height: 350px; border: 2px solid #5c913b; border-radius: 24px; padding: 22px; box-sizing: border-box; background: #30382b; }
+section.delivery .familiar-home > span { font-size: 25px; }
+section.delivery .familiar-people { display: flex; justify-content: space-between; align-items: center; padding: 18px 10px; font-size: 29px; }
+section.delivery .familiar-people span { font-size: 24px; color: #a8ce8d; }
+section.delivery.familiar .post-copy { left: 34px; }
+
+section.delivery .familiar-people b { width: 332px; font-weight: 400; }
+
+section.delivery.reply .reply-bubble { left: 730px; top: 142px; width: 332px; box-sizing: border-box; padding: 10px 14px; font-size: 20px; display: flex; align-items: center; gap: 5px; }
+section.delivery.reply .server-b > small { visibility: hidden; }
+
+section.delivery.familiar .familiar-reader, section.delivery.familiar .familiar-writer { position: absolute; top: 158px; }
+section.delivery.familiar .familiar-reader { left: 34px; }
+section.delivery.familiar .familiar-writer { left: 730px; }
+section.delivery.familiar .familiar-route { position: absolute; top: 243px; left: 410px; width: 276px; text-align: center; font-size: 25px; color: #a8ce8d; }
+section.delivery.familiar .post-original { background: #d1e4d4; }
+section.delivery.familiar .post-original small { color: #42513e; }
+
+/* Familiar screens first; the delivery diagram appears only in the explanation. */
+section.everyday h1 { font-size: 42px; margin-bottom: 24px; }
+section.everyday .everyday-single { width: 650px; margin: 0 auto; }
+section.everyday .everyday-pair { display: flex; gap: 48px; }
+section.everyday .everyday-screen { flex: 1; min-width: 0; border: 2px solid #668b53; border-radius: 18px; background: #2b3028; overflow: hidden; }
+section.everyday .everyday-brand { padding: 10px 20px; background: #465b39; font-size: 22px; }
+section.everyday .everyday-tab { padding: 14px 20px; border-bottom: 1px solid #59624e; font-size: 25px; font-weight: bold; }
+section.everyday .everyday-owner { padding: 10px 20px 0; font-size: 18px; color: #b0bba9; }
+section.everyday .everyday-post { margin: 14px; padding: 18px; border: 1px solid #668b53; border-radius: 12px; background: #353d30; }
+section.everyday .everyday-author { display: flex; align-items: center; gap: 12px; }
+section.everyday .everyday-author img { width: 42px; height: 42px; object-fit: contain; border-radius: 50%; background: #eff3e9; }
+section.everyday .everyday-author b { font-size: 23px; }
+section.everyday .everyday-author small { margin-left: auto; font-size: 17px; color: #a7b6a2; }
+section.everyday .everyday-post p { margin: 16px 0; font-size: 27px; }
+section.everyday .everyday-actions { display: flex; justify-content: space-between; color: #a7b6a2; }
+section.everyday .everyday-actions svg { width: 23px; height: 23px; }
+section.everyday .everyday-filler { padding: 14px 24px; font-size: 20px; color: #a7b6a2; }
+section.everyday .everyday-empty { margin: 14px; height: 174px; display: grid; place-items: center; font-size: 26px; color: #b4c4a7; border: 1px dashed #668b53; border-radius: 12px; }
+section.everyday .everyday-caption { margin-top: 24px; font-size: 28px; text-align: center; }
+section.everyday .everyday-reply { margin: 0 14px 14px; padding: 12px; border-left: 3px solid #a8ce8d; font-size: 21px; }
+section.everyday .everyday-reply img { width: 25px; height: 25px; vertical-align: middle; }
+section.everyday .everyday-screen { text-align: left; line-height: 1.4; }
+section.everyday .everyday-filler { padding: 8px 24px; }
+section.everyday .everyday-post p { line-height: 1.4; }
+section.everyday .everyday-actions { line-height: 1; }
+section.everyday .everyday-caption { line-height: 1.4; }
+
+section.everyday .everyday-brand.alternate { background: #36535b; }
+
+section.everyday .profile-search { margin: 20px; padding: 12px 18px; border: 1px solid #8fa480; border-radius: 24px; font-size: 22px; color: #bfcdb4; }
+section.everyday .profile-result { margin: 24px; display: flex; align-items: center; gap: 24px; }
+section.everyday .profile-result > img { width: 95px; height: 95px; object-fit: contain; }
+section.everyday .profile-result b { font-size: 29px; }
+section.everyday .profile-result small { display: block; font-size: 20px; color: #a7b6a2; }
+section.everyday .profile-result p { font-size: 23px; margin: 12px 0 0; }
+section.everyday .profile-follow { margin: 16px 24px 24px; padding: 12px; border-radius: 24px; background: #a8ce8d; color: #252722; text-align: center; font-size: 25px; }
+section.everyday .place-post { padding: 25px 20px; border-bottom: 1px solid #59624e; font-size: 25px; }
+section.everyday .place-post:last-child { border-bottom: 0; }
+section.everyday .place-guide { display: flex; align-items: center; gap: 50px; }
+section.everyday .place-guide > .everyday-screen { flex: 1.1; }
+section.everyday .place-about { padding: 26px; font-size: 24px; }
+section.everyday .place-about p { font-size: 23px; line-height: 1.6; margin: 22px 0; }
+section.everyday .place-about > div { padding: 12px 0; color: #a8ce8d; border-top: 1px solid #59624e; }
+section.everyday .place-check { flex: 1; text-align: left; font-size: 25px; }
+section.everyday .place-check p { margin: 26px 0; }
+
+section.solo-story .everyday-single { width: 800px; }
+section.solo-story .everyday-post { padding: 24px; }
+section.solo-story .everyday-post p { font-size: 34px; }
+section.solo-story .everyday-author b { font-size: 27px; }
+section.solo-story .everyday-reply { font-size: 28px; padding: 16px 24px; }
+
+section .illustration-row figure { width: 320px; }
+section.everyday h1 { margin-bottom: 36px; }
+section.everyday .profile-search { margin: 14px 20px; }
+section.everyday .profile-result { margin: 14px 24px; }
+section.everyday .profile-result p { margin-top: 6px; }
+section.everyday .profile-follow { margin: 10px 24px 18px; }
+
+section .viewer-row { display: flex; align-items: center; justify-content: center; gap: 44px; }
+section .viewer-row .everyday-single { width: 720px; margin: 0; }
+section .viewer { margin: 0; width: 210px; text-align: center; }
+section .viewer img { width: 190px; height: 200px; object-fit: contain; }
+section .viewer figcaption { font-size: 26px; margin-top: 8px; }
+section .viewer figcaption b { font-size: 30px; }
+section .story-lead { margin: 0 0 6px; text-align: center; font-size: 26px; color: var(--matcha-muted); }
+section.everyday .everyday-reactions { display: flex; align-items: center; gap: 14px; margin: 0 14px 14px; }
+section.everyday .everyday-reaction { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 22px; background: #465b39; border: 1px solid #a8ce8d; font-size: 26px; }
+section.everyday .everyday-reaction img { width: 32px; height: 32px; }
+section.everyday .everyday-reactions small { font-size: 22px; color: #a7b6a2; }
+section.everyday .viewer-row .everyday-post { margin: 10px 14px; padding: 12px 18px; }
+section.everyday .viewer-row .everyday-post p { margin: 8px 0 2px; }

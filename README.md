@@ -1,3 +1,20 @@
+# 分散型SNSのすゝめ
+
+三田学園文化祭LT会向けの20分の叩き台です。<br>
+Twitter・Instagramを使う、分散型SNSを初めて知る人に向けた本編26枚＋参考資料1枚です。<br>
+15枚目に1分休憩を入れ、19分で本編を終えて残り1分を調整に使う配分です。<br>
+所要時間はリハーサルで調整してください。
+
+- 編集するファイルは `slides/index.md`。各ページのHTMLコメントが話すメモです。
+- `mise exec -- pnpm dev` で <http://localhost:19720/> にプレビューを起動します。
+- `mise exec -- pnpm run build:dark` で `dist/slides.html` を出力します。
+- `mise exec -- pnpm run pdf` で `dist/slides.pdf` を出力します。PDF変換にはChrome系ブラウザーが必要です。
+- このMacのHeliumを使う場合は `CHROME_PATH=/Applications/Helium.app/Contents/MacOS/Helium mise exec -- pnpm run pdf` で変換できます。
+- 図は `slides/assets/` 内の編集可能なSVGです。投稿・人物・SNSの例は説明用の架空のものです。
+- HTMLを別の場所へ渡す場合は、`dist/fonts/` と `dist/assets/` も一緒に渡してください。
+
+以下は元のテンプレートの説明です。
+
 # slide-template
 
 まっちゃすきーの配色を使った、Marpのスライドテンプレートです。<br>
@@ -23,11 +40,11 @@ miseをシェルに組み込んでいる場合は、インストール後は `pn
 
 | 種類 | 編集するファイル | プレビュー |
 | --- | --- | --- |
-| ダーク | `slides/index.md` | <http://localhost:8765/> |
-| ライト | `slides/light.md` | <http://localhost:8765/light.md> |
-| 発表サンプル | `slides/demo.md` | <http://localhost:8765/demo.md> |
-| 動きの比較サンプル | `slides/motion.md` | <http://localhost:8765/motion.md> |
-| 動きの比較サンプル・ライト | `slides/motion-light.md` | <http://localhost:8765/motion-light.md> |
+| ダーク | `slides/index.md` | <http://localhost:19720/> |
+| ライト | `slides/light.md` | <http://localhost:19720/light.md> |
+| 発表サンプル | `slides/demo.md` | <http://localhost:19720/demo.md> |
+| 動きの比較サンプル | `slides/motion.md` | <http://localhost:19720/motion.md> |
+| 動きの比較サンプル・ライト | `slides/motion-light.md` | <http://localhost:19720/motion-light.md> |
 
 保存すると、ブラウザーの表示が自動更新されます。<br>
 停止するにはターミナルで `Ctrl+C` を押します。<br>
@@ -163,3 +180,11 @@ Marp標準サーバーはlocalhost以外でも待ち受けるため、インタ�
 
 - [Marp](https://marp.app/)
 - [Marp CLI](https://github.com/marp-team/marp-cli)
+
+### イラストと投稿配信の動き
+
+いらすとやの出典と元資料を反映した点は `notes/visual-assets.html` にまとめています。
+投稿例は架空の内容です。
+2つのSNSの段階説明の後に、複数のSNSへ投稿が流れ続ける図があります。
+配信図はTablerの封筒アイコンが3.5秒周期で流れます。
+PDFと端末の「動きを減らす」設定では静止表示になります。
