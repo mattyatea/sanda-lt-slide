@@ -303,6 +303,7 @@ section.statement p { font-size: 34px; font-weight: 400; }
 section .illustration-row { display: flex; justify-content: center; align-items: flex-end; gap: 46px; }
 section .illustration-row figure { margin: 0; width: 290px; }
 section .illustration-row img { width: 260px; height: 275px; object-fit: contain; }
+section .illustration-row .scene-emoji { height: 275px; display: flex; align-items: center; justify-content: center; }
 section .illustration-row figcaption { font-size: 28px; margin-top: 18px; white-space: nowrap; }
 section .illustration-row .waiting { visibility: hidden; }
 section .illustration-row.two { gap: 120px; }
@@ -508,3 +509,7 @@ section.everyday .everyday-reaction img { width: 32px; height: 32px; }
 section.everyday .everyday-reactions small { font-size: 22px; color: #a7b6a2; }
 section.everyday .viewer-row .everyday-post { margin: 10px 14px; padding: 12px 18px; }
 section.everyday .viewer-row .everyday-post p { margin: 8px 0 2px; }
+
+/* Twemoji images inline with text */
+section img.emoji { display: inline-block; width: 1em; height: 1em; margin: 0 0.05em; vertical-align: -0.12em; }
+section .illustration-row .scene-emoji img.emoji { width: 170px; height: 170px; margin: 0; }

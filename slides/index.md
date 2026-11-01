@@ -25,7 +25,7 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 <!-- _class: story profile-slide -->
 
-# 皆さんはじめまして 👋
+# 皆さんはじめまして <img class="emoji" src="assets/twemoji/1f44b.svg" alt="👋">
 
 <div class="profile-layout"><div class="profile-copy"><div class="profile-name">まっちゃてぃー。</div><div class="profile-description">SNS（が好き）な人</div><p>趣味：コーディング、SNS</p><p>Misskeyの開発に参加<br>SNS「まっちゃすきー。」の運営</p><div class="profile-handle">@mattyatea</div></div><img class="profile-portrait" src="assets/profile/mattyatea.png" alt="過去の登壇資料で使っている、まっちゃてぃー。のアイコン"></div>
 
@@ -111,9 +111,9 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 <!-- _class: story everyday -->
 
-# でも いつものSNSを始めたばかりだと...
+# でも いつものSNSだと...
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">いつものSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>ニュース</b><small>いま</small></div><p>【速報】今日の天気は…</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>おすすめ</b><small>いま</small></div><p>PR 今だけ半額！</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>まとめ</b><small>いま</small></div><p>買ってよかったもの10選👉リンクから</p></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">いつものSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>ニュース</b><small>いま</small></div><p>【速報】今日の天気は…</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>おすすめ</b><small>いま</small></div><p>PR 今だけ半額！</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>まとめ</b><small>いま</small></div><p>買ってよかったもの10選<img class="emoji" src="assets/twemoji/1f449.svg" alt="👉">リンクから</p></div></div></div></div>
 
 <!-- ニュースだったり、PRだったり、アフィリエイトだったりがたくさん流れてくる。ゲームの話をしている人が見当たらない。 -->
 
@@ -131,7 +131,7 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 <!-- _class: statement -->
 
-それに...
+しかも...
 
 # 流れてくる話に<br>疲れること ありませんか？
 
@@ -139,13 +139,13 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 ---
 
-<!-- _class: statement -->
+<!-- _class: story everyday -->
 
-見たくない話まで流れてきて...
+# こういうの 見たくないのに流れてくる...
 
-# なんだか<br>しんどい日もありますよね
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">いつものSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>ニュース</b><small>いま</small></div><p>【速報】来月からまた値上げ</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>まとめ</b><small>いま</small></div><p>【ネタバレ】新作のラスボスの正体は…</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>知らない人</b><small>いま</small></div><p>そのゲームってもうオワコンでしょ</p></div></div></div></div>
 
-<!-- 具体例は挙げなくてよい。言い争いや、つい誰かと比べてしまう投稿など、見たくもない話が流れてきてしんどい、という気持ちに共感してもらう。 -->
+<!-- 見たくないニュースや話が流れてきて嫌だよね、と共感してもらう。値上げのニュース、まだ遊んでいないゲームのネタバレ、好きなものを悪く言う投稿。どれも架空の投稿例。 -->
 
 ---
 
@@ -161,65 +161,51 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 <!-- _class: story everyday -->
 
-# たとえば ゲームの話だけで盛り上がれるSNS
+# たとえば ゲーム好きが集まるSNSなら
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>ゆう</b><small>いま</small></div><p>新作のPV見た？</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>みお</b><small>いま</small></div><p>このボス強すぎない？？</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>はると</b><small>いま</small></div><p>やっとクリアした〜！</p></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>ゆう</b><small>いま</small></div><p>新作の発売日きまった〜！みんな買う？</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>みお</b><small>いま</small></div><p>ネタバレなしで言うと… ラスト最高だった</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>はると</b><small>いま</small></div><p>3時間かかったけど ボス倒せた〜！！</p></div></div></div></div>
 
-<!-- 流れてくるのがゲームの話だけ。楽しそうと思ってもらう。 -->
+<!-- 流れてくるのがゲームの話だけ。さっきのネタバレと違って、ここでは「ネタバレなしで」と気をつかってくれる。楽しそうと思ってもらう。投稿は架空の例。 -->
 
 ---
 
 <!-- _class: story -->
 
-# 好きなことが多いなら 別荘もいくつか
+# 別荘って 好きな場所に建てますよね
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームのSNS</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>お絵かきのSNS</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真のSNS</figcaption></figure></div>
+<div class="illustration-row"><figure class=""><div class="scene-emoji" role="img" aria-label="海辺"><img class="emoji" src="assets/twemoji/1f3d6.svg" alt="🏖"></div><figcaption>海が好きなら<br>海沿いに</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="山"><img class="emoji" src="assets/twemoji/1f3d4.svg" alt="🏔"></div><figcaption>自然が好きなら<br>山の中に</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="温泉"><img class="emoji" src="assets/twemoji/2668.svg" alt="♨"></div><figcaption>温泉が好きなら<br>温泉地に</figcaption></figure></div>
 
-<!-- 7枚目と同じ並びで、下の言葉だけSNSの名前に変わる。好きなことごとに、いろんなところに作ることになる。 -->
-
----
-
-<!-- _class: statement -->
-
-いくつか作ることになるけど...
-
-# それぞれで好きな話だけ<br>できるって嬉しくない？
-
-<!-- アカウントが増えることは問題にしない。分散型だから、それぞれのSNSで好きなものだけ語れる。 -->
+<!-- 別荘のたとえを広げる。海を見るのが好きだから海沿いに建てるし、自然が好きなら山の中にも建てる。好きなものが多ければ、いろんなところに別荘を持つよね。 -->
 
 ---
 
-<!-- _class: statement question-beat -->
+<!-- _class: story -->
 
-でも実際 ほかの人と関わるときは...
+# SNSの別荘も 好きなことごとに
 
-# 好きなこと以外の雑談って<br>どうするの？
+<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵かき好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
 
-<!-- ここで止める。答えはAさんとBさんの話で見せる。 -->
-
----
-
-<!-- _class: statement -->
-
-# そこが<br>ミソなんです
-
-<!-- 一呼吸おいて、AさんとBさんの話へ。 -->
+<!-- 前のページと同じ並びで、海や山がSNSに変わる。好きなことが多かったら、別荘はそれぞれ持てばいい。アカウントが増えることは問題にしない。 -->
 
 ---
 
 <!-- _class: story geography -->
 
-<p class="story-lead">じゃあ実際に見てみましょう</p>
+<p class="story-lead">たとえば</p>
 
 # AさんとBさんがいます
 
-<div class="geo-people"><div><img src="assets/irasutoya/art.png" alt="絵を描く人"><b>Aさん</b><span>絵もゲームも好き</span></div><div><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><b>Bさん</b><span>ゲームが好き</span></div></div>
+<div class="geo-people"><div><img src="assets/irasutoya/art.png" alt="絵を描く人"><b>Aさん</b><span>ゲームも絵も好き<br>ゲームとお絵かきのSNSに別荘</span></div><div><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><b>Bさん</b><span>ゲームが好き<br>ゲームのSNSに別荘</span></div></div>
+
+<!-- 先に人物を紹介する。Aさんはクリエイターで、ゲームもするし絵も描く。ゲームの話はゲーム好きのSNS、絵はお絵かき好きのSNSと、ちゃんと使い分けている。Bさんはゲーム好きのSNSだけ。 -->
 
 ---
 
 <!-- _class: statement -->
 
-# Aさんが投稿しました
+AさんとBさんは ゲーム仲間
+
+# ゲームの話は<br>ゲーム好きのSNSで
 
 ---
 
@@ -243,37 +229,39 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 ---
 
-<!-- _class: statement -->
+<!-- _class: story everyday -->
 
-ある日... 絵も描くAさんは
+# でも ゲーム仲間とは ゲーム以外の話もしたい
 
-# 絵はお絵かき好きのSNSに<br>投稿するようになりました
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b></figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム仲間との雑談</div><div class="place-post">「Aさんの絵 また見たいな」</div><div class="place-post">「今日の空きれいだった」</div><div class="place-post">「週末どこか行った？」</div></div></div></div>
+
+<!-- ゲーム仲間とはゲームの話をしたい。でもゲーム以外の話もしたいことがある。BさんはAさんとゲームを一緒にやっていて、Aさんの絵も好き。投稿は架空の例。 -->
 
 ---
 
 <!-- _class: story everyday solo-story -->
 
-# 絵はこっちに投稿しています
+# でも Aさんの絵は お絵かきの別荘に
 
 <div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="other-author"><div class="everyday-screen"><div class="everyday-brand alternate">お絵かき好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="リアクション"><svg aria-hidden="true" data-icon="plus" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 5l0 14" /> <path d="M5 12l14 0" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- AさんのSNSだけ変える。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- Aさんは絵をお絵かき好きのSNSに投稿して、ちゃんと使い分けている。でもAさんも、ゲーム仲間に「いいから見てよ」と絵を見てほしい。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
 <!-- _class: statement question-beat -->
 
-Bさんは今のSNSでこの絵も見たい
+この絵を見るには...
 
-# そっちにも<br>登録しないとだめ？
+# Bさんも そこに<br>別荘を建てなきゃだめ？
 
-<!-- この問いで止める。別のSNSに登録する以外の方法を聞き手が考えてから次の画面へ進む。 -->
+<!-- この問いで止める。他の人の別荘を見るために、その別荘地に自分も家を建てなきゃいけないのか。聞き手が考えてから次の画面へ進む。 -->
 
 ---
 
 <!-- _class: story everyday solo-story -->
 
-# Bさんの画面に届きました
+# 建てなくても Bさんの画面に届きます
 
 <div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="other-reader"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="リアクション"><svg aria-hidden="true" data-icon="plus" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 5l0 14" /> <path d="M5 12l14 0" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
@@ -373,7 +361,7 @@ Bさんは今のSNSでこの絵も見たい
 
 # 実際にはこんなにたくさん
 
-<div class="network-stage"><svg viewBox="0 0 1096 510" aria-hidden="true"><g class="network-links"><path d="M190 140 Q365.0 155.0 540 250"/><path d="M540 250 Q715.0 130.0 890 90"/><path d="M190 140 Q195.0 235.0 200 410"/><path d="M200 410 Q370.0 290.0 540 250"/><path d="M540 250 Q715.0 290.0 890 410"/><path d="M890 90 Q890.0 210.0 890 410"/></g></svg><div class="network-node" style="left:50px;top:90px"><b>ゲーム好きのSNS</b><span>🎮 👤 👤</span></div><div class="network-node" style="left:750px;top:40px"><b>創作のSNS</b><span>🎨 👤 👤</span></div><div class="network-node" style="left:400px;top:200px"><b>日常を話すSNS</b><span>📷 👤 👤</span></div><div class="network-node" style="left:60px;top:360px"><b>音楽好きのSNS</b><span>🎵 👤 👤</span></div><div class="network-node" style="left:750px;top:360px"><b>地域のSNS</b><span>🏡 👤 👤</span></div><span class="network-packet" style="--x0:190px;--y0:140px;--xm:365.0px;--ym:155.0px;--x1:540px;--y1:250px;--delay:-0.0s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:540px;--y0:250px;--xm:715.0px;--ym:130.0px;--x1:890px;--y1:90px;--delay:-1.2s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:190px;--y0:140px;--xm:195.0px;--ym:235.0px;--x1:200px;--y1:410px;--delay:-2.4s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:200px;--y0:410px;--xm:370.0px;--ym:290.0px;--x1:540px;--y1:250px;--delay:-3.5999999999999996s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:540px;--y0:250px;--xm:715.0px;--ym:290.0px;--x1:890px;--y1:410px;--delay:-4.8s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:890px;--y0:90px;--xm:890.0px;--ym:210.0px;--x1:890px;--y1:410px;--delay:-6.0s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span></div><div class="network-key"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg> 投稿や返信がつながった相手のいるSNSへ</div>
+<div class="network-stage"><svg viewBox="0 0 1096 510" aria-hidden="true"><g class="network-links"><path d="M190 140 Q365.0 155.0 540 250"/><path d="M540 250 Q715.0 130.0 890 90"/><path d="M190 140 Q195.0 235.0 200 410"/><path d="M200 410 Q370.0 290.0 540 250"/><path d="M540 250 Q715.0 290.0 890 410"/><path d="M890 90 Q890.0 210.0 890 410"/></g></svg><div class="network-node" style="left:50px;top:90px"><b>ゲーム好きのSNS</b><span><img class="emoji" src="assets/twemoji/1f3ae.svg" alt="🎮"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"></span></div><div class="network-node" style="left:750px;top:40px"><b>創作のSNS</b><span><img class="emoji" src="assets/twemoji/1f3a8.svg" alt="🎨"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"></span></div><div class="network-node" style="left:400px;top:200px"><b>日常を話すSNS</b><span><img class="emoji" src="assets/twemoji/1f4f7.svg" alt="📷"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"></span></div><div class="network-node" style="left:60px;top:360px"><b>音楽好きのSNS</b><span><img class="emoji" src="assets/twemoji/1f3b5.svg" alt="🎵"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"></span></div><div class="network-node" style="left:750px;top:360px"><b>地域のSNS</b><span><img class="emoji" src="assets/twemoji/1f3e1.svg" alt="🏡"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"> <img class="emoji" src="assets/twemoji/1f464.svg" alt="👤"></span></div><span class="network-packet" style="--x0:190px;--y0:140px;--xm:365.0px;--ym:155.0px;--x1:540px;--y1:250px;--delay:-0.0s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:540px;--y0:250px;--xm:715.0px;--ym:130.0px;--x1:890px;--y1:90px;--delay:-1.2s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:190px;--y0:140px;--xm:195.0px;--ym:235.0px;--x1:200px;--y1:410px;--delay:-2.4s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:200px;--y0:410px;--xm:370.0px;--ym:290.0px;--x1:540px;--y1:250px;--delay:-3.5999999999999996s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:540px;--y0:250px;--xm:715.0px;--ym:290.0px;--x1:890px;--y1:410px;--delay:-4.8s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span><span class="network-packet" style="--x0:890px;--y0:90px;--xm:890.0px;--ym:210.0px;--x1:890px;--y1:410px;--delay:-6.0s" aria-hidden="true"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></span></div><div class="network-key"><svg aria-hidden="true" data-icon="mail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg> 投稿や返信がつながった相手のいるSNSへ</div>
 
 <!--
 20〜30秒ほど図を見せながら説明。線はやり取りの例です。投稿や返信が、フォローなどのつながりに応じて別のSNSへ届きます。全部の投稿が全員に届くという意味ではありません。SNSの名前や組み合わせは架空です。投稿や返信が繰り返し流れます。
