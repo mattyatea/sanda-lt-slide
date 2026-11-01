@@ -103,9 +103,9 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 好きなことって...
 
-# もっと話したいし<br>話してる人も見たい
+# もっと話したいし<br>いろんな人と語り合いたい
 
-<!-- 5〜7枚目の「楽しい」を受けて、聞き手に共感してもらうページ。 -->
+<!-- 5〜7枚目の「楽しい」を受けて、聞き手に共感してもらうページ。自分が好きなことって、もっと積極的に話したいし、いろんな人と語り合いたいよね。 -->
 
 ---
 
@@ -113,9 +113,9 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 # でも いつものSNSを始めたばかりだと...
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">いつものSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>ニュース</b><small>いま</small></div><p>【速報】今日の天気は…</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>おすすめ</b><small>いま</small></div><p>PR 今だけ半額！</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>知らない人</b><small>いま</small></div><p>この動画やばすぎるｗ</p></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption>ゲーム好き</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">いつものSNS</div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>ニュース</b><small>いま</small></div><p>【速報】今日の天気は…</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/sns.png" alt=""><b>おすすめ</b><small>いま</small></div><p>PR 今だけ半額！</p></div><div class="everyday-post"><div class="everyday-author"><img src="assets/irasutoya/camera.png" alt=""><b>まとめ</b><small>いま</small></div><p>買ってよかったもの10選👉リンクから</p></div></div></div></div>
 
-<!-- 流れてくるのは好きなこと以外ばかり。ゲームの話をしている人が見当たらない。 -->
+<!-- ニュースだったり、PRだったり、アフィリエイトだったりがたくさん流れてくる。ゲームの話をしている人が見当たらない。 -->
 
 ---
 
@@ -136,6 +136,16 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 # 流れてくる話に<br>疲れること ありませんか？
 
 <!-- 聞き手への問いかけ。ニュースや広告、知らない人の話がずっと流れてくると、好きな話をしに来たのに疲れてしまう。 -->
+
+---
+
+<!-- _class: statement -->
+
+見たくない話まで流れてきて...
+
+# なんだか<br>しんどい日もありますよね
+
+<!-- 具体例は挙げなくてよい。言い争いや、つい誰かと比べてしまう投稿など、見たくもない話が流れてきてしんどい、という気持ちに共感してもらう。 -->
 
 ---
 
@@ -161,27 +171,45 @@ description: 疲れたときの別荘として、自分の「好き」を楽し�
 
 <!-- _class: story -->
 
-# ただ 好きなことがたくさんあると...
+# 好きなことが多いなら 別荘もいくつか
 
 <div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームのSNS</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>お絵かきのSNS</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真のSNS</figcaption></figure></div>
 
-<!-- 7枚目と同じ並びで、下の言葉だけSNSの名前に変わる。 -->
+<!-- 7枚目と同じ並びで、下の言葉だけSNSの名前に変わる。好きなことごとに、いろんなところに作ることになる。 -->
+
+---
+
+<!-- _class: statement -->
+
+いくつか作ることになるけど...
+
+# それぞれで好きな話だけ<br>できるって嬉しくない？
+
+<!-- アカウントが増えることは問題にしない。分散型だから、それぞれのSNSで好きなものだけ語れる。 -->
 
 ---
 
 <!-- _class: statement question-beat -->
 
-アカウントもアプリも増えちゃう
+でも実際 ほかの人と関わるときは...
 
-# 全部に<br>登録しないとだめ？
+# 好きなこと以外の雑談って<br>どうするの？
 
 <!-- ここで止める。答えはAさんとBさんの話で見せる。 -->
 
 ---
 
+<!-- _class: statement -->
+
+# そこが<br>ミソなんです
+
+<!-- 一呼吸おいて、AさんとBさんの話へ。 -->
+
+---
+
 <!-- _class: story geography -->
 
-<p class="story-lead">じゃあ実際にどうなるか見てみましょう</p>
+<p class="story-lead">じゃあ実際に見てみましょう</p>
 
 # AさんとBさんがいます
 
