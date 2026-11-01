@@ -269,13 +269,45 @@ AさんとBさんは ゲーム仲間
 
 ---
 
+<!-- _class: statement question-beat -->
+
+別荘が違うのに...
+
+# どういうこと？
+
+<!-- 前のページで届いたのを見せたあと、聞き手の「なんで？」をここで受ける。答えは次の画面で見せる。 -->
+
+---
+
+<!-- _class: delivery write -->
+<!-- _transition: matcha 1000ms -->
+
+# 画面の裏では...
+
+<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵かき好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">Aさんが投稿すると...</div></div>
+
+<!-- ここだけ二つのSNSを並べて投稿の表示が届く動きを説明する。元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
+
+---
+
+<!-- _class: delivery deliver -->
+<!-- _transition: matcha 1000ms -->
+
+# 別荘から別荘へ 投稿を届けてくれる
+
+<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵かき好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="connection">← 投稿が届く</div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="post-original"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">共通のルールでやり取りしています</div></div>
+
+<!-- ここだけ二つのSNSを並べて投稿の表示が届く動きを説明する。元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
+
+---
+
 <!-- _class: statement -->
 
-実は...
+つまり...
 
-# SNS同士が<br>つながれるものもあるんです
+# 別荘どうしが<br>つながっているんです
 
-<!-- ここから、つながれるSNSでの例へ切り替える。TwitterとInstagramの直接連携ではないことは口頭で伝える。 -->
+<!-- 前の2ページで見たことに言葉を付けるだけ。ただし、TwitterとInstagramみたいに、どんなSNSでもつながるわけではない。つながれるSNS同士の話。 -->
 
 ---
 
@@ -400,28 +432,6 @@ AさんとBさんは ゲーム仲間
 <div class="everyday-caption">自分のアカウントでフォローできます</div>
 
 <!-- 相手のプロフィールURLを自分のSNSの検索へ入れる方法。対応・接続が許す場合で、承認が必要な場合もある。登録やフォローの実操作を行う画面ではない。 -->
-
----
-
-<!-- _class: delivery write -->
-<!-- _transition: matcha 1000ms -->
-
-# 画面の裏では...
-
-<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵かき好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">Aさんが投稿すると...</div></div>
-
-<!-- ここだけ二つのSNSを並べて投稿の表示が届く動きを説明する。元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
-
----
-
-<!-- _class: delivery deliver -->
-<!-- _transition: matcha 1000ms -->
-
-# SNS同士で投稿を届けています
-
-<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵かき好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="connection">← 投稿が届く</div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="post-original"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">共通のルールでやり取りしています</div></div>
-
-<!-- ここだけ二つのSNSを並べて投稿の表示が届く動きを説明する。元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
 
 ---
 
