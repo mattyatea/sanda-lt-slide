@@ -422,7 +422,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # ② Aさんが 投稿すると...
 
-<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>フォロワーにBさん</small></div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div></div>
+<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>フォロワーにBさん</small></div><div class="post-copy"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div></div>
 
 <!-- 元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
 
@@ -433,9 +433,9 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # 教えてもらった住所へ届ける
 
-<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>フォロワーにBさん</small></div><div class="connection">← 投稿が届く</div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="post-original"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">Bさんの ゲーム好きのSNSに届く</div></div>
+<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>フォロワーにBさん</small></div><div class="connection">← 投稿が届く</div><div class="post-copy"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="post-original"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">Bさんの ゲーム好きのSNSに届く</div></div>
 
-<!-- 元の投稿は残る。フォローや接続、公開範囲が許す場合。 -->
+<!-- 元の投稿はAさんのSNSに残り、コピーがBさんのSNSへ飛んでいく。フォローや接続、公開範囲が許す場合。 -->
 
 ---
 
@@ -446,16 +446,6 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 # 別荘同士も<br>同じルールで繋がっている
 
 <!-- 住所の書き方や郵便の仕組みが共通だから、どこからでも手紙が届く。SNS同士も同じルール（ActivityPub）で話せるから、投稿を受け渡しできる。ルールの名前は後で出てくる。ただし、TwitterとInstagramみたいに、どんなSNSでも繋がるわけではない。繋がれるSNS同士の話。 -->
-
----
-
-<!-- _class: statement question-beat -->
-
-返信が届くのは想像できそう
-
-# じゃあ<br>いいねは？
-
-<!-- ここで止める。投稿が届くなら返信も届きそう、は直感でわかる。じゃあBさんが絵にいいねしたら、Aさんに届くか予想してもらう。 -->
 
 ---
 
@@ -481,11 +471,13 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 <!-- _class: story everyday solo-story -->
 
-# SNSが違っても Aさんに届きます
+# いいねなどの反応も Aさんに届きます
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="reaction-arrived"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね 1件" class="like-count"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg><b>1</b><i class="plus-one">+1</i></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div><div class="everyday-reactions"><small>Bさんがいいねしました</small></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="reaction-arrived"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね 1件" class="like-count"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg><b>1</b><i class="plus-one">+1</i></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- Bさんのいいねが、お絵描き好きのSNSにいるAさんのタイムラインに届いた。別荘が違っても、いいねまでちゃんと届く。ハートの数が+1される。 -->
+<div class="like-toast" role="status"><img src="assets/irasutoya/game.png" alt=""><div><b>Bさんがいいねしました</b><small>ゲーム好きのSNSから</small></div><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg></div>
+
+<!-- Bさんのいいねが、お絵描き好きのSNSにいるAさんのタイムラインに届いた。別荘が違っても、いいねまでちゃんと届く。ハートの数が+1されて、右下に「Bさんがいいねしました」の通知が届く。いいね以外の反応も同じように届く。 -->
 
 ---
 
@@ -496,28 +488,6 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 # 好きな別荘にいても<br>色んな人と話せる
 
 <!-- ここまでで投稿も返信もいいねも、別荘を越えて届くことを見た。だから好きな別荘にいても、色んな人と話せる仕組みになっている。 -->
-
----
-
-<!-- _class: statement -->
-
-音楽が好きなCさんもいます
-
-# Cさんにも<br>届くと思いますか？
-
-<!--
-一対一専用の仕組みではありません。同じSNSにもたくさんの人がいて、別のSNSとも繋がります。
--->
-
----
-
-<!-- _class: story everyday solo-story -->
-
-# Cさんも自分のSNSで読めます
-
-<div class="everyday-single" data-story-scene="third-reader"><div class="everyday-screen"><div class="everyday-brand">音楽好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div>
-
-<!-- CさんもAさんをフォローしている。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 

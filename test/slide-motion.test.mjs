@@ -67,7 +67,7 @@ test('story shows one screen at a time and keeps answers off question pages', ()
         execFileSync(process.execPath, ['node_modules/@marp-team/marp-cli/marp-cli.js', 'slides/index.md', '-o', output], { stdio: 'pipe' });
         const html = readFileSync(output, 'utf8');
         const slides = [...html.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(match => match[1]);
-        const sceneNames = ['familiar-reader', 'familiar-author', 'other-author', 'other-reader', 'reaction-arrived', 'third-reader'];
+        const sceneNames = ['familiar-reader', 'familiar-author', 'other-author', 'other-reader', 'reaction-arrived'];
         for (const sceneName of sceneNames) {
             const scene = slides.find(slide => slide.includes(`data-story-scene="${sceneName}"`));
             assert.ok(scene, sceneName);
