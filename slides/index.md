@@ -407,7 +407,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 ---
 
 <!-- _class: delivery follow-address -->
-<!-- _transition: matcha 1000ms -->
+<!-- _transition: matcha 600ms -->
 
 # ① Bさんが フォローすると...
 
@@ -418,7 +418,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 ---
 
 <!-- _class: delivery write -->
-<!-- _transition: matcha 1000ms -->
+<!-- _transition: matcha 600ms -->
 
 # ② Aさんが 投稿すると...
 
@@ -429,7 +429,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 ---
 
 <!-- _class: delivery deliver -->
-<!-- _transition: matcha 1000ms -->
+<!-- _transition: matcha 600ms -->
 
 # 教えてもらった住所へ届ける
 

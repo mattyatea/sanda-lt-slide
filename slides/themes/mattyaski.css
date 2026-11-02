@@ -290,14 +290,14 @@ section.delivery .delivery-caption { position: absolute; top: 376px; width: 100%
     100% { transform: none; }
 }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.delivery.deliver:where(.bespoke-marp-active *) .post-copy { z-index: 3; animation: post-copy-flight 1.6s 0.3s linear both; }
+    section.delivery.deliver:where(.bespoke-marp-active *) .post-copy { z-index: 3; animation: post-copy-flight 1s 0.15s linear both; }
 }
 section.delivery .follow-chip { position: absolute; top: 202px; left: 34px; width: 332px; padding: 12px 20px; box-sizing: border-box; text-align: center; font-size: 23px; border-radius: 30px; background: #a8ce8d; color: #252722; }
 section.delivery.follow .follow-chip { left: 34px; }
 section.delivery.write .follow-chip { display: none; }
 @media screen {
     /* moving content stays above the diagrams that fade out underneath it */
-    ::view-transition-group(follow-request) { z-index: 10; animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
+    ::view-transition-group(follow-request) { z-index: 10; animation-duration: 600ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
 }
 @media (prefers-reduced-motion: reduce) {
     ::view-transition-group(follow-request) { animation-duration: 1ms !important; }
@@ -536,7 +536,7 @@ section.everyday .everyday-actions .liked { color: #f4637f; }
 section.everyday .everyday-actions .liked svg { fill: currentColor; }
 @keyframes heart-pop { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .liked svg { animation: heart-pop 450ms 250ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .liked svg { animation: heart-pop 350ms 100ms cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Letter: A gets B's address, sends a letter to it, and then the two keep writing back and forth */
@@ -648,17 +648,17 @@ section.delivery .follower-tag b { font-size: 22px; font-weight: 500; }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
-    section:where(.bespoke-marp-active *) .letter-step-1 { animation: rise-in 500ms 0.3s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.8s 0.5s linear both; }
-    section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 500ms 2.3s cubic-bezier(0.23, 1, 0.32, 1), a-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
-    section:where(.bespoke-marp-active *) .letter-step-2 { animation: rise-in 500ms 2.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section:where(.bespoke-marp-active *) .letter { animation: letter-to-b 8.8s 2.8s linear infinite backwards; }
-    section:where(.bespoke-marp-active *) .letter-reply { animation: letter-to-a 8.8s 2.8s linear infinite backwards; }
-    section:where(.bespoke-marp-active *) .letter-post img { animation: post-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
-    section:where(.bespoke-marp-active *) .letter-to img { animation: b-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .follow-letter { animation: follow-travel 2.2s 0.4s linear both; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .follower-tag { animation: rise-in 500ms 2.2s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .delivery-caption { animation: rise-in 500ms 2.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .letter-step-1 { animation: rise-in 350ms 0.1s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.2s 0.2s linear both; }
+    section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 400ms 1.4s cubic-bezier(0.23, 1, 0.32, 1), a-bumps 6s 1.6s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section:where(.bespoke-marp-active *) .letter-step-2 { animation: rise-in 350ms 1.5s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .letter { animation: letter-to-b 6s 1.6s linear infinite backwards; }
+    section:where(.bespoke-marp-active *) .letter-reply { animation: letter-to-a 6s 1.6s linear infinite backwards; }
+    section:where(.bespoke-marp-active *) .letter-post img { animation: post-bumps 6s 1.6s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section:where(.bespoke-marp-active *) .letter-to img { animation: b-bumps 6s 1.6s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follow-letter { animation: follow-travel 1.4s 0.2s linear both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follower-tag { animation: rise-in 350ms 1.4s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .delivery-caption { animation: rise-in 350ms 1.7s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Liked count on A's screen: the heart counts up with a floating +1 */
@@ -671,8 +671,8 @@ section.everyday .everyday-actions .plus-one { position: absolute; left: 2px; to
     100% { opacity: 1; transform: translateY(-20px) scale(0); }
 }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .plus-one { animation: plus-one-float 1.8s 0.5s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .like-count b { display: inline-block; animation: heart-pop 450ms 0.7s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .plus-one { animation: plus-one-float 1.2s 0.2s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .like-count b { display: inline-block; animation: heart-pop 350ms 0.35s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Recap lists: left-aligned and numbered, one item added per page */
@@ -694,20 +694,20 @@ section .reveal > .waiting { visibility: hidden; }
 @keyframes enter-right { from { opacity: 0; transform: translateX(48px); } }
 @keyframes rise-in { from { opacity: 0; transform: translateY(24px); } }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:first-child { animation: enter-left 600ms cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:last-child { animation: enter-right 600ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section.compare-story:where(.bespoke-marp-active *) .place-post { animation: rise-in 500ms cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(2) { animation-delay: 0.6s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(3) { animation-delay: 0.9s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(4) { animation-delay: 1.2s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(2) { animation-delay: 0.75s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(3) { animation-delay: 1.05s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(4) { animation-delay: 1.35s; }
-    section.compare-story:where(.bespoke-marp-active *) .everyday-caption { animation: rise-in 500ms 1.8s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section:where(.bespoke-marp-active *) .takeaways > div:not(.waiting):not(:has(~ div:not(.waiting))) { animation: rise-in 500ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:first-child { animation: enter-left 400ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:last-child { animation: enter-right 400ms 80ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .place-post { animation: rise-in 350ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(2) { animation-delay: 0.3s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(3) { animation-delay: 0.45s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(4) { animation-delay: 0.6s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(2) { animation-delay: 0.375s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(3) { animation-delay: 0.525s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(4) { animation-delay: 0.675s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-caption { animation: rise-in 350ms 0.9s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .takeaways > div:not(.waiting):not(:has(~ div:not(.waiting))) { animation: rise-in 350ms 50ms cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section:where(.bespoke-marp-active *) .reveal > :not(.waiting):not(:has(~ :not(.waiting))) { animation: rise-in 500ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .reveal > :not(.waiting):not(:has(~ :not(.waiting))) { animation: rise-in 350ms 50ms cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Like notification: slides in from the bottom right like a phone notification */
@@ -719,7 +719,7 @@ section .like-toast small { display: block; font-size: 17px; color: #596451; whi
 section .like-toast svg { width: 30px; height: 30px; color: #e0455f; flex: none; }
 @keyframes toast-in { from { transform: translate(calc(100% + 80px), 40px); } }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section:where(.bespoke-marp-active *) .like-toast { animation: toast-in 700ms 0.5s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .like-toast { animation: toast-in 500ms 0.2s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Design pass: one heading style across layouts, stronger statements, and a calmer title page */
