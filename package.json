@@ -9,6 +9,7 @@
     "test": "node --test test/*.test.mjs",
     "build:fonts": "node --input-type=module -e \"import { cpSync } from 'node:fs'; cpSync('slides/fonts', 'dist/fonts', { recursive: true });\"",
     "build:dark": "pnpm run build:fonts && pnpm run build:assets && marp slides/index.md -o dist/slides.html",
+    "build:site": "node scripts/build-site.mjs",
     "build:light": "pnpm run build:fonts && marp slides/light.md -o dist/slides-light.html",
     "build:demo": "pnpm run build:fonts && marp slides/demo.md -o dist/demo.html",
     "build:motion": "pnpm run build:fonts && marp slides/motion.md -o dist/motion.html && marp slides/motion-light.md -o dist/motion-light.html",

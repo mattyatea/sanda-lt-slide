@@ -8,6 +8,7 @@ Twitter・Instagramを使う、分散型SNSを初めて知る人に向けた本�
 - 編集するファイルは `slides/index.md`。各ページのHTMLコメントが話すメモです。
 - `mise exec -- pnpm dev` で <http://localhost:19720/> にプレビューを起動します。
 - `mise exec -- pnpm run build:dark` で `dist/slides.html` を出力します。
+- `mise exec -- pnpm run build:site` で、スライドだけの静的サイトを `dist/site/` に出力します。話すメモは含めません。フォルダごと置けば公開できます。
 - `mise exec -- pnpm run pdf` で `dist/slides.pdf` を出力します。PDF変換にはChrome系ブラウザーが必要です。
 - このMacのHeliumを使う場合は `CHROME_PATH=/Applications/Helium.app/Contents/MacOS/Helium mise exec -- pnpm run pdf` で変換できます。
 - 図は `slides/assets/` 内の編集可能なSVGです。投稿・人物・SNSの例は説明用の架空のものです。

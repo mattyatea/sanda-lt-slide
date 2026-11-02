@@ -558,11 +558,19 @@ section .letter-step { position: absolute; left: 0; width: 100%; text-align: cen
 section .letter-step-1 { top: 300px; }
 section .letter-step-2 { top: 352px; }
 @keyframes address-trip {
-    0% { transform: translate(0, 0) scale(0); }
-    12% { transform: translate(0, 0) scale(1); }
-    50% { transform: translate(-383px, -190px) scale(0.85); }
-    88% { transform: translate(-766px, -20px) scale(0.9); }
-    100% { transform: translate(-766px, 0) scale(0); }
+    0% { transform: translate(0, 0) rotate(0deg) scale(0); }
+    12% { transform: translate(0, 0) rotate(0deg) scale(1); }
+    19.6% { transform: translate(-77px, -65px) rotate(22deg) scale(0.95); }
+    27.2% { transform: translate(-153px, -115px) rotate(18deg) scale(0.91); }
+    34.8% { transform: translate(-230px, -151px) rotate(12deg) scale(0.88); }
+    42.4% { transform: translate(-306px, -173px) rotate(6deg) scale(0.86); }
+    50.0% { transform: translate(-383px, -180px) rotate(0deg) scale(0.85); }
+    57.6% { transform: translate(-460px, -173px) rotate(-6deg) scale(0.86); }
+    65.2% { transform: translate(-536px, -151px) rotate(-12deg) scale(0.88); }
+    72.8% { transform: translate(-613px, -115px) rotate(-18deg) scale(0.91); }
+    80.4% { transform: translate(-689px, -65px) rotate(-22deg) scale(0.95); }
+    88.0% { transform: translate(-766px, -0px) rotate(-26deg) scale(1.00); }
+    100% { transform: translate(-766px, 10px) rotate(0deg) scale(0); }
 }
 /* One exchange every 8.8s: A to B in the first half, B's reply to A in the second */
 @keyframes letter-to-b {
@@ -641,7 +649,7 @@ section.delivery .follower-tag b { font-size: 22px; font-weight: 500; }
 
 @media screen and (prefers-reduced-motion: no-preference) {
     section:where(.bespoke-marp-active *) .letter-step-1 { animation: rise-in 500ms 0.3s cubic-bezier(0.23, 1, 0.32, 1) both; }
-    section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.8s 0.5s ease-in-out both; }
+    section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.8s 0.5s linear both; }
     section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 500ms 2.3s cubic-bezier(0.23, 1, 0.32, 1), a-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
     section:where(.bespoke-marp-active *) .letter-step-2 { animation: rise-in 500ms 2.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
     section:where(.bespoke-marp-active *) .letter { animation: letter-to-b 8.8s 2.8s linear infinite backwards; }
@@ -713,3 +721,21 @@ section .like-toast svg { width: 30px; height: 30px; color: #e0455f; flex: none;
 @media screen and (prefers-reduced-motion: no-preference) {
     section:where(.bespoke-marp-active *) .like-toast { animation: toast-in 700ms 0.5s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
+
+/* Design pass: one heading style across layouts, stronger statements, and a calmer title page */
+section h1 { text-align: center; letter-spacing: 0.02em; }
+section.network-slide h1 { text-align: center; right: 92px; }
+
+section.statement h1 { font-size: 54px; font-weight: 500; line-height: 1.5; }
+section.statement p,
+section .story-lead { color: var(--matcha-emphasis); font-weight: 500; letter-spacing: 0.06em; }
+section.statement p { font-size: 28px; margin: 0 0 20px; }
+
+section.lead h1 { font-size: 64px; font-weight: 700; padding-bottom: 0; border-bottom: 0; }
+section.lead h1::after { content: ''; display: block; width: 88px; height: 6px; margin: 30px auto 0; border-radius: 3px; background: var(--matcha-accent); }
+section.lead p { font-size: 26px; margin-top: 28px; }
+section.lead p:has(+ h1) { margin: 0 0 18px; color: var(--matcha-emphasis); font-weight: 500; letter-spacing: 0.06em; }
+section.closing h1 { font-size: 60px; }
+
+section.references p { margin: 12px 0; font-size: 26px; }
+section.references a { text-decoration: none; font-weight: 500; }

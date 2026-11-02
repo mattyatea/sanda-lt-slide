@@ -703,11 +703,11 @@ Discordより ちょっと大変だけど...
 
 <!-- _class: story everyday compare-story -->
 
-# どっちが居心地よさそうですか？
+# あなたの心地いい方へ
 
 <div class="everyday-pair"><div class="everyday-screen"><div class="everyday-brand">ゲームの話で賑やか</div><div class="place-post">「新作もう遊んだ？」</div><div class="place-post">「あのボス倒せた〜！」</div><div class="place-post">「攻略の話聞きたい！」</div></div><div class="everyday-screen"><div class="everyday-brand alternate">日常の話をのんびり</div><div class="place-post">「今日の空綺麗だった」</div><div class="place-post">「少しずつ絵を描いてる」</div><div class="place-post">「今日は早めに寝よう」</div></div></div>
 
-<div class="everyday-caption">賑やかでも のんびりでも 好きな方へ</div>
+<div class="everyday-caption">賑やかでも のんびりでも 選ぶのはあなた</div>
 
 <!-- 架空の投稿例。実在するSNSの雰囲気や利用者の発言を引用したものではない。 -->
 
@@ -782,3 +782,13 @@ Discordより ちょっと大変だけど...
 <!--
 本編には含めない参考資料。素材の個別出典はnotes/visual-assets.html。投稿例は架空で、実ユーザーからの引用はありません。
 -->
+
+---
+
+<!-- _class: lead story-title closing -->
+
+# ご清聴ありがとうございました
+
+まっちゃてぃー。
+
+<!-- 最後に一礼。質問があればこのページのまま受ける。 -->
