@@ -277,7 +277,8 @@ section.delivery .post-original { font-size: 21px; background: #afc6ce; }
 section.delivery .reply-bubble { position: absolute; left: 375px; top: 300px; padding: 12px 24px; background: #a8ce8d; color: #252722; border-radius: 30px; font-size: 24px; }
 section.delivery .delivery-caption { position: absolute; top: 376px; width: 100%; text-align: center; font-size: 28px; }
 @media screen {
-    ::view-transition-group(delivery-post) { animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
+    /* moving content stays above the diagrams that fade out underneath it */
+    ::view-transition-group(delivery-post) { z-index: 10; animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
 }
 @media (prefers-reduced-motion: reduce) {
     ::view-transition-group(delivery-post) { animation-duration: 1ms !important; }
@@ -286,7 +287,8 @@ section.delivery .follow-chip { position: absolute; top: 202px; left: 34px; widt
 section.delivery.follow .follow-chip { left: 34px; }
 section.delivery.write .follow-chip { display: none; }
 @media screen {
-    ::view-transition-group(follow-request) { animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
+    /* moving content stays above the diagrams that fade out underneath it */
+    ::view-transition-group(follow-request) { z-index: 10; animation-duration: 1000ms !important; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
 }
 @media (prefers-reduced-motion: reduce) {
     ::view-transition-group(follow-request) { animation-duration: 1ms !important; }
@@ -337,11 +339,11 @@ section .network-node span { font-size: 25px; letter-spacing: 10px; }
 section .network-packet { position: absolute; left: -19px; top: -17px; z-index: 1; color: #252722; background: #c7e8b0; border-radius: 12px; width: 38px; height: 34px; line-height: 34px; font-size: 26px; transform: translate(var(--xm),var(--ym)); }
 section .network-key { font-size: 25px; margin-top: 0; }
 @keyframes network-delivery {
-    0%, 8% { transform: translate(var(--x0),var(--y0)); opacity: 0; }
-    15% { opacity: 1; }
-    48% { transform: translate(var(--xm),var(--ym)); opacity: 1; }
-    82% { opacity: 1; }
-    92%, 100% { transform: translate(var(--x1),var(--y1)); opacity: 0; }
+    0%, 8% { transform: translate(var(--x0),var(--y0)); scale: 0; }
+    15% { scale: 1; }
+    48% { transform: translate(var(--xm),var(--ym)); }
+    82% { scale: 1; }
+    92%, 100% { transform: translate(var(--x1),var(--y1)); scale: 0; }
 }
 @keyframes network-flow { to { stroke-dashoffset: -68; } }
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -525,10 +527,10 @@ section.everyday .everyday-actions .liked { color: #f4637f; }
 section.everyday .everyday-actions .liked svg { fill: currentColor; }
 @keyframes heart-pop { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .liked svg { animation: heart-pop 450ms 250ms ease-out both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .liked svg { animation: heart-pop 450ms 250ms cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
-/* Letter: B hands A the address, then A sends a letter to it */
+/* Letter: A gets B's address, sends a letter to it, and then the two keep writing back and forth */
 section .letter-stage { position: relative; width: 1096px; height: 440px; }
 section .letter-spot { position: absolute; top: 30px; width: 240px; display: flex; flex-direction: column; align-items: center; gap: 12px; font-size: 28px; }
 section .letter-spot b { font-weight: 500; }
@@ -539,6 +541,7 @@ section .letter-to { left: 856px; }
 section .letter { position: absolute; left: 150px; top: 150px; width: 120px; display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 2; }
 section .letter img { width: 96px; height: 96px; }
 section .letter small { padding: 2px 8px; border-radius: 8px; background: #d1e4d4; color: #252722; font-size: 19px; white-space: nowrap; }
+section .letter-reply { left: 826px; opacity: 0; }
 section .address-card { position: absolute; left: 916px; top: 150px; width: 120px; display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 2; }
 section .address-card img { width: 80px; height: 80px; }
 section .address-card small { padding: 2px 8px; border-radius: 8px; background: #a8ce8d; color: #252722; font-size: 19px; white-space: nowrap; }
@@ -546,25 +549,67 @@ section .letter-step { position: absolute; left: 0; width: 100%; text-align: cen
 section .letter-step-1 { top: 300px; }
 section .letter-step-2 { top: 352px; }
 @keyframes address-trip {
-    0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
-    12% { opacity: 1; transform: translate(0, 0) scale(1); }
+    0% { transform: translate(0, 0) scale(0); }
+    12% { transform: translate(0, 0) scale(1); }
     50% { transform: translate(-383px, -190px) scale(0.85); }
-    88% { opacity: 1; transform: translate(-766px, -20px) scale(0.9); }
-    100% { opacity: 0; transform: translate(-766px, 0) scale(0.5); }
+    88% { transform: translate(-766px, -20px) scale(0.9); }
+    100% { transform: translate(-766px, 0) scale(0); }
 }
-@keyframes letter-trip {
-    0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
-    8% { opacity: 1; transform: translate(0, 0) scale(1); }
-    20% { transform: translate(170px, -150px) scale(1); }
-    35% { opacity: 1; transform: translate(338px, -90px) scale(1); }
-    42%, 55% { opacity: 0; transform: translate(338px, -70px) scale(0.4); }
-    62% { opacity: 1; transform: translate(420px, -60px) scale(1); }
-    76% { transform: translate(600px, -150px) scale(1); }
-    90% { opacity: 1; transform: translate(766px, -80px) scale(0.9); }
-    100% { opacity: 0; transform: translate(766px, -70px) scale(0.4); }
+/* One exchange every 8.8s: A to B in the first half, B's reply to A in the second */
+@keyframes letter-to-b {
+    0.0% { opacity: 1; transform: translate(0px, 0px) rotate(0deg) scale(0); }
+    3.0% { opacity: 1; transform: translate(0px, 0px) rotate(0deg) scale(1.0); }
+    5.8% { opacity: 1; transform: translate(42px, -56px) rotate(-37deg) scale(1.0); }
+    7.5% { opacity: 1; transform: translate(84px, -99px) rotate(-30deg) scale(1.0); }
+    9.2% { opacity: 1; transform: translate(127px, -128px) rotate(-22deg) scale(1.0); }
+    11.0% { opacity: 1; transform: translate(169px, -145px) rotate(-10deg) scale(1.0); }
+    12.8% { opacity: 1; transform: translate(211px, -148px) rotate(3deg) scale(1.0); }
+    14.5% { opacity: 1; transform: translate(254px, -139px) rotate(16deg) scale(1.0); }
+    16.2% { opacity: 1; transform: translate(296px, -116px) rotate(26deg) scale(1.0); }
+    18.0% { opacity: 1; transform: translate(338px, -80px) rotate(34deg) scale(1.0); }
+    21.0% { opacity: 1; transform: translate(338px, -70px) rotate(0deg) scale(0); }
+    27.5% { opacity: 1; transform: translate(338px, -70px) rotate(0deg) scale(0); }
+    30.0% { opacity: 1; transform: translate(338px, -80px) rotate(0deg) scale(1.0); }
+    32.8% { opacity: 1; transform: translate(392px, -117px) rotate(-23deg) scale(1.0); }
+    34.5% { opacity: 1; transform: translate(445px, -144px) rotate(-16deg) scale(1.0); }
+    36.2% { opacity: 1; transform: translate(498px, -160px) rotate(-8deg) scale(1.0); }
+    38.0% { opacity: 1; transform: translate(552px, -165px) rotate(0deg) scale(1.0); }
+    39.8% { opacity: 1; transform: translate(606px, -160px) rotate(8deg) scale(1.0); }
+    41.5% { opacity: 1; transform: translate(659px, -144px) rotate(16deg) scale(1.0); }
+    43.2% { opacity: 1; transform: translate(712px, -117px) rotate(23deg) scale(1.0); }
+    45.0% { opacity: 1; transform: translate(766px, -80px) rotate(29deg) scale(1.0); }
+    50.0% { opacity: 1; transform: translate(766px, -70px) rotate(0deg) scale(0); }
+    100.0% { opacity: 1; transform: translate(766px, -70px) rotate(0deg) scale(0); }
 }
+@keyframes letter-to-a {
+    0.0% { opacity: 1; transform: translate(0px, 0px) rotate(0deg) scale(0); }
+    50.0% { opacity: 1; transform: translate(0px, 0px) rotate(0deg) scale(0); }
+    53.0% { opacity: 1; transform: translate(0px, 0px) rotate(0deg) scale(1.0); }
+    55.8% { opacity: 1; transform: translate(-42px, -56px) rotate(37deg) scale(1.0); }
+    57.5% { opacity: 1; transform: translate(-84px, -99px) rotate(30deg) scale(1.0); }
+    59.2% { opacity: 1; transform: translate(-127px, -128px) rotate(22deg) scale(1.0); }
+    61.0% { opacity: 1; transform: translate(-169px, -145px) rotate(10deg) scale(1.0); }
+    62.8% { opacity: 1; transform: translate(-211px, -148px) rotate(-3deg) scale(1.0); }
+    64.5% { opacity: 1; transform: translate(-254px, -139px) rotate(-16deg) scale(1.0); }
+    66.2% { opacity: 1; transform: translate(-296px, -116px) rotate(-26deg) scale(1.0); }
+    68.0% { opacity: 1; transform: translate(-338px, -80px) rotate(-34deg) scale(1.0); }
+    71.0% { opacity: 1; transform: translate(-338px, -70px) rotate(0deg) scale(0); }
+    77.5% { opacity: 1; transform: translate(-338px, -70px) rotate(0deg) scale(0); }
+    80.0% { opacity: 1; transform: translate(-338px, -80px) rotate(0deg) scale(1.0); }
+    82.8% { opacity: 1; transform: translate(-392px, -117px) rotate(23deg) scale(1.0); }
+    84.5% { opacity: 1; transform: translate(-445px, -144px) rotate(16deg) scale(1.0); }
+    86.2% { opacity: 1; transform: translate(-498px, -160px) rotate(8deg) scale(1.0); }
+    88.0% { opacity: 1; transform: translate(-552px, -165px) rotate(0deg) scale(1.0); }
+    89.8% { opacity: 1; transform: translate(-606px, -160px) rotate(-8deg) scale(1.0); }
+    91.5% { opacity: 1; transform: translate(-659px, -144px) rotate(-16deg) scale(1.0); }
+    93.2% { opacity: 1; transform: translate(-712px, -117px) rotate(-23deg) scale(1.0); }
+    95.0% { opacity: 1; transform: translate(-766px, -80px) rotate(-29deg) scale(1.0); }
+    100.0% { opacity: 1; transform: translate(-766px, -70px) rotate(0deg) scale(0); }
+}
+@keyframes post-bumps { 0%, 17%, 22.7%, 67%, 72.7%, 100% { transform: none; } 19.3%, 69.3% { transform: scale(1.15) rotate(-4deg); } }
+@keyframes b-bumps { 0%, 45%, 50.7%, 100% { transform: none; } 47.3% { transform: scale(1.15) rotate(-4deg); } }
+@keyframes a-bumps { 0%, 94.3%, 100% { transform: none; } 97% { transform: scale(1.15) rotate(-4deg); } }
 @keyframes spot-bump { 0%, 100% { transform: none; } 40% { transform: scale(1.15) rotate(-4deg); } }
-@keyframes fade-in { from { opacity: 0; } }
 
 /* Follow: B's address travels to A's SNS and stays as a follower */
 section.delivery .follow-letter { position: absolute; top: 212px; left: 34px; width: 332px; box-sizing: border-box; padding: 14px 20px; border-radius: 16px; background: #a8ce8d; color: #252722; font-size: 24px; line-height: 1.4; text-align: center; box-shadow: 0 8px 24px #0003; opacity: 0; }
@@ -572,23 +617,31 @@ section.delivery .follow-letter small { color: #42513e; }
 section.delivery .follower-tag { position: absolute; top: 212px; left: 730px; width: 332px; box-sizing: border-box; padding: 14px 20px; border-radius: 16px; background: #d1e4d4; color: #252722; font-size: 21px; line-height: 1.5; text-align: center; }
 section.delivery .follower-tag b { font-size: 22px; font-weight: 500; }
 @keyframes follow-travel {
-    0% { opacity: 0; transform: none; }
-    12% { opacity: 1; transform: none; }
-    70% { opacity: 1; transform: translateX(696px); }
-    100% { opacity: 0; transform: translateX(696px); }
+    0% { opacity: 1; transform: translate(0, 0) rotate(0deg) scale(0); }
+    8% { opacity: 1; transform: translate(0, 0) rotate(0deg) scale(1); }
+    15.8% { opacity: 1; transform: translate(87px, -39px) rotate(-16deg) scale(1); }
+    23.5% { opacity: 1; transform: translate(174px, -68px) rotate(-11deg) scale(1); }
+    31.2% { opacity: 1; transform: translate(261px, -84px) rotate(-6deg) scale(1); }
+    39.0% { opacity: 1; transform: translate(348px, -90px) rotate(0deg) scale(1); }
+    46.8% { opacity: 1; transform: translate(435px, -84px) rotate(6deg) scale(1); }
+    54.5% { opacity: 1; transform: translate(522px, -68px) rotate(11deg) scale(1); }
+    62.2% { opacity: 1; transform: translate(609px, -39px) rotate(16deg) scale(1); }
+    70.0% { opacity: 1; transform: translate(696px, -0px) rotate(21deg) scale(1); }
+    80%, 100% { opacity: 1; transform: translate(696px, 10px) rotate(0deg) scale(0); }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
-    section:where(.bespoke-marp-active *) .letter-step-1 { animation: fade-in 500ms 0.3s ease-out both; }
+    section:where(.bespoke-marp-active *) .letter-step-1 { animation: rise-in 500ms 0.3s cubic-bezier(0.23, 1, 0.32, 1) both; }
     section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.8s 0.5s ease-in-out both; }
-    section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 500ms 2.3s ease-out; }
-    section:where(.bespoke-marp-active *) .letter-step-2 { animation: fade-in 500ms 2.6s ease-out both; }
-    section:where(.bespoke-marp-active *) .letter { animation: letter-trip 4.4s 2.8s ease-in-out both; }
-    section:where(.bespoke-marp-active *) .letter-post img { animation: spot-bump 500ms 4.3s ease-out; }
-    section:where(.bespoke-marp-active *) .letter-to img { animation: spot-bump 500ms 7.1s ease-out; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .follow-letter { animation: follow-travel 2.2s 0.4s ease-in-out both; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .follower-tag { animation: fade-in 500ms 2.2s ease-out both; }
-    section.delivery.follow-address:where(.bespoke-marp-active *) .delivery-caption { animation: fade-in 500ms 2.6s ease-out both; }
+    section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 500ms 2.3s cubic-bezier(0.23, 1, 0.32, 1), a-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section:where(.bespoke-marp-active *) .letter-step-2 { animation: rise-in 500ms 2.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .letter { animation: letter-to-b 8.8s 2.8s linear infinite backwards; }
+    section:where(.bespoke-marp-active *) .letter-reply { animation: letter-to-a 8.8s 2.8s linear infinite backwards; }
+    section:where(.bespoke-marp-active *) .letter-post img { animation: post-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section:where(.bespoke-marp-active *) .letter-to img { animation: b-bumps 8.8s 2.8s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follow-letter { animation: follow-travel 2.2s 0.4s linear both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follower-tag { animation: rise-in 500ms 2.2s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .delivery-caption { animation: rise-in 500ms 2.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Liked count on A's screen: the heart counts up with a floating +1 */
@@ -596,13 +649,13 @@ section.everyday .everyday-actions .like-count { position: relative; display: in
 section.everyday .everyday-actions .like-count b { font-size: 22px; font-weight: 700; }
 section.everyday .everyday-actions .plus-one { position: absolute; left: 2px; top: -34px; font-style: normal; font-weight: 700; font-size: 26px; color: #f4637f; opacity: 0; }
 @keyframes plus-one-float {
-    0% { opacity: 0; transform: translateY(14px); }
+    0% { opacity: 1; transform: translateY(14px) scale(0); }
     25%, 70% { opacity: 1; transform: none; }
-    100% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(-20px) scale(0); }
 }
 @media screen and (prefers-reduced-motion: no-preference) {
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .plus-one { animation: plus-one-float 1.8s 0.5s ease-out both; }
-    section.everyday:where(.bespoke-marp-active *) .everyday-actions .like-count b { display: inline-block; animation: heart-pop 450ms 0.7s ease-out both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .plus-one { animation: plus-one-float 1.8s 0.5s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .like-count b { display: inline-block; animation: heart-pop 450ms 0.7s cubic-bezier(0.23, 1, 0.32, 1) both; }
 }
 
 /* Recap lists: left-aligned and numbered, one item added per page */
@@ -619,6 +672,7 @@ section.tl-story .viewer-row .everyday-post { max-height: 120px; margin: 10px 14
 section.tl-story .viewer-row .everyday-post p { font-size: 25px; margin: 4px 0 0; }
 
 /* Entrances: the two places slide in and fill up row by row; a list's newly added item rises in */
+section .reveal > .waiting { visibility: hidden; }
 @keyframes enter-left { from { opacity: 0; transform: translateX(-48px); } }
 @keyframes enter-right { from { opacity: 0; transform: translateX(48px); } }
 @keyframes rise-in { from { opacity: 0; transform: translateY(24px); } }
@@ -634,4 +688,7 @@ section.tl-story .viewer-row .everyday-post p { font-size: 25px; margin: 4px 0 0
     section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(4) { animation-delay: 1.35s; }
     section.compare-story:where(.bespoke-marp-active *) .everyday-caption { animation: rise-in 500ms 1.8s cubic-bezier(0.23, 1, 0.32, 1) both; }
     section:where(.bespoke-marp-active *) .takeaways > div:not(.waiting):not(:has(~ div:not(.waiting))) { animation: rise-in 500ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+    section:where(.bespoke-marp-active *) .reveal > :not(.waiting):not(:has(~ :not(.waiting))) { animation: rise-in 500ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
 }

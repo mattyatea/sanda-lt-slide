@@ -65,7 +65,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # SNSってこういうことが楽しい
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
 
 <!--
 同じ位置にイラストを一つずつ増やします。ゲームの話、作ったものを見せる、日常の写真。皆さんは何を楽しんでますか？三枚合わせて約45秒。
@@ -77,7 +77,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # SNSってこういうことが楽しい
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
 
 <!--
 同じ位置にイラストを一つずつ増やします。ゲームの話、作ったものを見せる、日常の写真。皆さんは何を楽しんでますか？三枚合わせて約45秒。
@@ -89,7 +89,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # SNSってこういうことが楽しい
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームの話</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>創作を見せる</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>日常を共有する</figcaption></figure></div>
 
 <!--
 同じ位置にイラストを一つずつ増やします。ゲームの話、作ったものを見せる、日常の写真。皆さんは何を楽しんでますか？三枚合わせて約45秒。
@@ -161,7 +161,25 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # 別荘って 好きな場所に建てますよね
 
-<div class="illustration-row"><figure class=""><div class="scene-emoji" role="img" aria-label="海辺"><img class="emoji" src="assets/twemoji/1f3d6.svg" alt="🏖"></div><figcaption>海が好きなら<br>海沿いに</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="山"><img class="emoji" src="assets/twemoji/1f3d4.svg" alt="🏔"></div><figcaption>自然が好きなら<br>山の中に</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="温泉"><img class="emoji" src="assets/twemoji/2668.svg" alt="♨"></div><figcaption>温泉が好きなら<br>温泉地に</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><div class="scene-emoji" role="img" aria-label="海辺"><img class="emoji" src="assets/twemoji/1f3d6.svg" alt="🏖"></div><figcaption>海が好きなら<br>海沿いに</figcaption></figure><figure class="waiting"><div class="scene-emoji" role="img" aria-label="山"><img class="emoji" src="assets/twemoji/1f3d4.svg" alt="🏔"></div><figcaption>自然が好きなら<br>山の中に</figcaption></figure><figure class="waiting"><div class="scene-emoji" role="img" aria-label="温泉"><img class="emoji" src="assets/twemoji/2668.svg" alt="♨"></div><figcaption>温泉が好きなら<br>温泉地に</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# 別荘って 好きな場所に建てますよね
+
+<div class="illustration-row reveal"><figure class=""><div class="scene-emoji" role="img" aria-label="海辺"><img class="emoji" src="assets/twemoji/1f3d6.svg" alt="🏖"></div><figcaption>海が好きなら<br>海沿いに</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="山"><img class="emoji" src="assets/twemoji/1f3d4.svg" alt="🏔"></div><figcaption>自然が好きなら<br>山の中に</figcaption></figure><figure class="waiting"><div class="scene-emoji" role="img" aria-label="温泉"><img class="emoji" src="assets/twemoji/2668.svg" alt="♨"></div><figcaption>温泉が好きなら<br>温泉地に</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# 別荘って 好きな場所に建てますよね
+
+<div class="illustration-row reveal"><figure class=""><div class="scene-emoji" role="img" aria-label="海辺"><img class="emoji" src="assets/twemoji/1f3d6.svg" alt="🏖"></div><figcaption>海が好きなら<br>海沿いに</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="山"><img class="emoji" src="assets/twemoji/1f3d4.svg" alt="🏔"></div><figcaption>自然が好きなら<br>山の中に</figcaption></figure><figure class=""><div class="scene-emoji" role="img" aria-label="温泉"><img class="emoji" src="assets/twemoji/2668.svg" alt="♨"></div><figcaption>温泉が好きなら<br>温泉地に</figcaption></figure></div>
 
 <!-- 別荘のたとえを広げる。海を見るのが好きだから海沿いに建てるし、自然が好きなら山の中にも建てる。好きなものが多ければ、色んなところに別荘を持つよね。 -->
 
@@ -171,7 +189,25 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # SNSの別荘も 好きな事ごとに
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵描き好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵描き好きのSNSに</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# SNSの別荘も 好きな事ごとに
+
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵描き好きのSNSに</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# SNSの別荘も 好きな事ごとに
+
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵描き好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
 
 <!-- 前のページと同じ並びで、海や山がSNSに変わる。好きなことが多かったら、別荘はそれぞれ持てばいい。アカウントが増えることは問題にしない。ここでいう「別荘」は、そのSNSのアカウントのことだと口で添える。いつものSNSのアカウントはそのまま残しておけばいい。 -->
 
@@ -203,7 +239,18 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # AさんとBさんがいます
 
-<div class="geo-people"><div><img src="assets/irasutoya/art.png" alt="絵を描く人"><b>Aさん</b><span>ゲームも絵も好き<br>ゲームとお絵描きのSNSに別荘</span></div><div><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><b>Bさん</b><span>ゲームが好き<br>ゲームのSNSに別荘</span></div></div>
+<div class="geo-people reveal"><div><img src="assets/irasutoya/art.png" alt="絵を描く人"><b>Aさん</b><span>ゲームも絵も好き<br>ゲームとお絵描きのSNSに別荘</span></div><div class="waiting"><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><b>Bさん</b><span>ゲームが好き<br>ゲームのSNSに別荘</span></div></div>
+
+
+---
+
+<!-- _class: story geography -->
+
+<p class="story-lead">例えば</p>
+
+# AさんとBさんがいます
+
+<div class="geo-people reveal"><div><img src="assets/irasutoya/art.png" alt="絵を描く人"><b>Aさん</b><span>ゲームも絵も好き<br>ゲームとお絵描きのSNSに別荘</span></div><div><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><b>Bさん</b><span>ゲームが好き<br>ゲームのSNSに別荘</span></div></div>
 
 <!-- 先に人物を紹介する。Aさんはクリエイターで、ゲームもするし絵も描く。ゲームの話はゲーム好きのSNS、絵はお絵描き好きのSNSと、ちゃんと使い分けている。Bさんはゲーム好きのSNSだけ。 -->
 
@@ -333,19 +380,9 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # 手紙は 住所を知っていれば届きますよね
 
-<div class="letter-stage"><div class="letter-spot letter-from"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b></div><div class="letter-spot letter-post"><img src="assets/twemoji/1f4ee.svg" alt=""><b>ポスト</b></div><div class="letter-spot letter-to"><img src="assets/twemoji/1f4ec.svg" alt=""><b>Bさんの家</b></div><div class="address-card"><img src="assets/twemoji/1f3e1.svg" alt="住所"><small>Bさんの住所</small></div><div class="letter"><img src="assets/twemoji/2709.svg" alt="手紙"><small>宛先：Bさんの住所</small></div><div class="letter-step letter-step-1">① Bさんが Aさんに 住所を教える</div><div class="letter-step letter-step-2">② Aさんが その住所に 手紙を出す</div></div>
+<div class="letter-stage"><div class="letter-spot letter-from"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b></div><div class="letter-spot letter-post"><img src="assets/twemoji/1f4ee.svg" alt=""><b>ポスト</b></div><div class="letter-spot letter-to"><img src="assets/twemoji/1f4ec.svg" alt=""><b>Bさんの家</b></div><div class="address-card"><img src="assets/twemoji/1f3e1.svg" alt="住所"><small>Bさんの住所</small></div><div class="letter"><img src="assets/twemoji/2709.svg" alt="手紙"><small>宛先：Bさんの住所</small></div><div class="letter letter-reply"><img src="assets/twemoji/2709.svg" alt="返事の手紙"><small>宛先：Aさんの住所</small></div><div class="letter-step letter-step-1">① Aさんが Bさんの住所を確認する</div><div class="letter-step letter-step-2">② Aさんが その住所に 手紙を出す</div></div>
 
-<!-- 先にBさんが住所を教えて、だからAさんはその住所に手紙を出せる、という順番で見せる。住所のカードがBさんの家からAさんへ移り、そのあと手紙がポストを通ってBさんの郵便受けに届く。 -->
-
----
-
-<!-- _class: statement recap -->
-
-# 分散型SNSに 置き換えると
-
-<div class="takeaways"><div>住所を教える ＝ フォローする</div><div class="waiting">手紙を出す ＝ 投稿する</div></div>
-
-<!-- 手紙の①と同じ。フォローは「私の住所はここだよ」と相手に教えること。 -->
+<!-- 先にAさんがBさんの住所を確認して、だからその住所に手紙を出せる、という順番で見せる。住所のカードがBさんの家からAさんへ移り、そのあと手紙がポストを通ってBさんの郵便受けに届く。そのあとは返事が届いて、手紙の行き来がずっと続く。 -->
 
 ---
 
@@ -353,7 +390,17 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # 分散型SNSに 置き換えると
 
-<div class="takeaways"><div>住所を教える ＝ フォローする</div><div>手紙を出す ＝ 投稿する</div></div>
+<div class="takeaways"><div>フォローする ＝ 住所を教える</div><div class="waiting">投稿する ＝ 手紙を出す</div></div>
+
+<!-- フォローは「私の住所はここだよ」と相手に教えること。 -->
+
+---
+
+<!-- _class: statement recap -->
+
+# 分散型SNSに 置き換えると
+
+<div class="takeaways"><div>フォローする ＝ 住所を教える</div><div>投稿する ＝ 手紙を出す</div></div>
 
 <!-- 手紙の②と同じ。投稿すると、教えてもらった住所へ届けてもらえる。次の図で同じ順番を確かめる。 -->
 
@@ -364,7 +411,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 # ① Bさんが フォローすると...
 
-<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="follow-letter">フォロー！<br><small>住所：ゲーム好きのSNS</small></div><div class="follower-tag">フォロワー<br><b>Bさん（ゲーム好きのSNS）</b></div><div class="delivery-caption">Bさんの住所が Aさんの別荘に伝わる</div></div>
+<div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>投稿一覧</small></div><div class="follow-letter">フォロー<br><small>住所：ゲーム好きのSNS</small></div><div class="follower-tag">フォロワー<br><b>Bさん（ゲーム好きのSNS）</b></div><div class="delivery-caption">Bさんの住所が Aさんの別荘に伝わる</div></div>
 
 <!-- フォローは「私の住所はここだよ」と相手に教えること。BさんのフォローがAさんのいるお絵描き好きのSNSに届いて、フォロワーとして住所が残る。 -->
 
@@ -384,7 +431,7 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 <!-- _class: delivery deliver -->
 <!-- _transition: matcha 1000ms -->
 
-# 教えてもらった住所へ 届けてくれる
+# 教えてもらった住所へ届ける
 
 <div class="delivery-stage"><div class="server server-a"><span>ゲーム好きのSNS</span><div class="person">Bさん</div><small>タイムライン</small></div><div class="server server-b"><span>お絵描き好きのSNS</span><div class="person">Aさん</div><small>フォロワーにBさん</small></div><div class="connection">← 投稿が届く</div><div class="post-copy" data-matcha-motion="fade" style="view-transition-name: delivery-post"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="post-original"><small>Aさん</small><br><b>今日描いた絵、見て〜！</b></div><div class="delivery-caption">Bさんの ゲーム好きのSNSに届く</div></div>
 
@@ -394,21 +441,11 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 <!-- _class: statement -->
 
-手紙の書き方が 決まっているように
+手紙が届くのは 郵便のルールが共通だから
 
-# SNS同士も 共通のルールで<br>やり取りしている
+# 別荘同士も<br>同じルールで繋がっている
 
-<!-- 住所の書き方や郵便の仕組みが決まっているから手紙が届く。SNS同士も同じルール（ActivityPub）で話せるから投稿を受け渡しできる。ルールの名前は後で出てくる。 -->
-
----
-
-<!-- _class: statement -->
-
-つまり...
-
-# 別荘同士が 同じルールで<br>繋がっているんです
-
-<!-- 前のページまでで見たことに言葉を付けるだけ。ただし、TwitterとInstagramみたいに、どんなSNSでも繋がるわけではない。繋がれるSNS同士の話。 -->
+<!-- 住所の書き方や郵便の仕組みが共通だから、どこからでも手紙が届く。SNS同士も同じルール（ActivityPub）で話せるから、投稿を受け渡しできる。ルールの名前は後で出てくる。ただし、TwitterとInstagramみたいに、どんなSNSでも繋がるわけではない。繋がれるSNS同士の話。 -->
 
 ---
 
@@ -668,7 +705,25 @@ Discordより ちょっと大変だけど...
 
 # 皆さんなら何を投稿しますか？
 
-<div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>「このボス倒せた！」</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>「今日描いた絵！」</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>「今日の空よくない？」</figcaption></figure></div>
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>「このボス倒せた！」</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>「今日描いた絵！」</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>「今日の空よくない？」</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# 皆さんなら何を投稿しますか？
+
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>「このボス倒せた！」</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>「今日描いた絵！」</figcaption></figure><figure class="waiting"><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>「今日の空よくない？」</figcaption></figure></div>
+
+
+---
+
+<!-- _class: story -->
+
+# 皆さんなら何を投稿しますか？
+
+<div class="illustration-row reveal"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>「このボス倒せた！」</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>「今日描いた絵！」</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>「今日の空よくない？」</figcaption></figure></div>
 
 <!--
 冒頭の趣味を思い出してもらいます。このゲームのあの場面が好き、絵を見てほしい、写真を見せたい。本人の実体験としては語らず、楽しみ方の例として紹介します。
