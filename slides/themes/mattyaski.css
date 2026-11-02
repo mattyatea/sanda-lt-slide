@@ -513,3 +513,93 @@ section.everyday .viewer-row .everyday-post p { margin: 8px 0 2px; }
 /* Twemoji images inline with text */
 section img.emoji { display: inline-block; width: 1em; height: 1em; margin: 0 0.05em; vertical-align: -0.12em; }
 section .illustration-row .scene-emoji img.emoji { width: 170px; height: 170px; margin: 0; }
+
+/* Like button: the heart fills when pressed */
+section.everyday .everyday-actions .liked { color: #f4637f; }
+section.everyday .everyday-actions .liked svg { fill: currentColor; }
+@keyframes heart-pop { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }
+@media screen and (prefers-reduced-motion: no-preference) {
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .liked svg { animation: heart-pop 450ms 250ms ease-out both; }
+}
+
+/* Letter: B hands A the address, then A sends a letter to it */
+section .letter-stage { position: relative; width: 1096px; height: 440px; }
+section .letter-spot { position: absolute; top: 30px; width: 240px; display: flex; flex-direction: column; align-items: center; gap: 12px; font-size: 28px; }
+section .letter-spot b { font-weight: 500; }
+section .letter-spot img { width: 200px; height: 200px; object-fit: contain; }
+section .letter-from { left: 0; }
+section .letter-post { left: 428px; }
+section .letter-to { left: 856px; }
+section .letter { position: absolute; left: 150px; top: 150px; width: 120px; display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 2; }
+section .letter img { width: 96px; height: 96px; }
+section .letter small { padding: 2px 8px; border-radius: 8px; background: #d1e4d4; color: #252722; font-size: 19px; white-space: nowrap; }
+section .address-card { position: absolute; left: 916px; top: 150px; width: 120px; display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 2; }
+section .address-card img { width: 80px; height: 80px; }
+section .address-card small { padding: 2px 8px; border-radius: 8px; background: #a8ce8d; color: #252722; font-size: 19px; white-space: nowrap; }
+section .letter-step { position: absolute; left: 0; width: 100%; text-align: center; font-size: 30px; }
+section .letter-step-1 { top: 300px; }
+section .letter-step-2 { top: 352px; }
+@keyframes address-trip {
+    0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
+    12% { opacity: 1; transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-383px, -190px) scale(0.85); }
+    88% { opacity: 1; transform: translate(-766px, -20px) scale(0.9); }
+    100% { opacity: 0; transform: translate(-766px, 0) scale(0.5); }
+}
+@keyframes letter-trip {
+    0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
+    8% { opacity: 1; transform: translate(0, 0) scale(1); }
+    20% { transform: translate(170px, -150px) scale(1); }
+    35% { opacity: 1; transform: translate(338px, -90px) scale(1); }
+    42%, 55% { opacity: 0; transform: translate(338px, -70px) scale(0.4); }
+    62% { opacity: 1; transform: translate(420px, -60px) scale(1); }
+    76% { transform: translate(600px, -150px) scale(1); }
+    90% { opacity: 1; transform: translate(766px, -80px) scale(0.9); }
+    100% { opacity: 0; transform: translate(766px, -70px) scale(0.4); }
+}
+@keyframes spot-bump { 0%, 100% { transform: none; } 40% { transform: scale(1.15) rotate(-4deg); } }
+@keyframes fade-in { from { opacity: 0; } }
+
+/* Follow: B's address travels to A's SNS and stays as a follower */
+section.delivery .follow-letter { position: absolute; top: 212px; left: 34px; width: 332px; box-sizing: border-box; padding: 14px 20px; border-radius: 16px; background: #a8ce8d; color: #252722; font-size: 24px; line-height: 1.4; text-align: center; box-shadow: 0 8px 24px #0003; opacity: 0; }
+section.delivery .follow-letter small { color: #42513e; }
+section.delivery .follower-tag { position: absolute; top: 212px; left: 730px; width: 332px; box-sizing: border-box; padding: 14px 20px; border-radius: 16px; background: #d1e4d4; color: #252722; font-size: 21px; line-height: 1.5; text-align: center; }
+section.delivery .follower-tag b { font-size: 22px; font-weight: 500; }
+@keyframes follow-travel {
+    0% { opacity: 0; transform: none; }
+    12% { opacity: 1; transform: none; }
+    70% { opacity: 1; transform: translateX(696px); }
+    100% { opacity: 0; transform: translateX(696px); }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    section:where(.bespoke-marp-active *) .letter-step-1 { animation: fade-in 500ms 0.3s ease-out both; }
+    section:where(.bespoke-marp-active *) .address-card { animation: address-trip 1.8s 0.5s ease-in-out both; }
+    section:where(.bespoke-marp-active *) .letter-from img { animation: spot-bump 500ms 2.3s ease-out; }
+    section:where(.bespoke-marp-active *) .letter-step-2 { animation: fade-in 500ms 2.6s ease-out both; }
+    section:where(.bespoke-marp-active *) .letter { animation: letter-trip 4.4s 2.8s ease-in-out both; }
+    section:where(.bespoke-marp-active *) .letter-post img { animation: spot-bump 500ms 4.3s ease-out; }
+    section:where(.bespoke-marp-active *) .letter-to img { animation: spot-bump 500ms 7.1s ease-out; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follow-letter { animation: follow-travel 2.2s 0.4s ease-in-out both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .follower-tag { animation: fade-in 500ms 2.2s ease-out both; }
+    section.delivery.follow-address:where(.bespoke-marp-active *) .delivery-caption { animation: fade-in 500ms 2.6s ease-out both; }
+}
+
+/* Liked count on A's screen: the heart counts up with a floating +1 */
+section.everyday .everyday-actions .like-count { position: relative; display: inline-flex; align-items: center; gap: 6px; color: #f4637f; }
+section.everyday .everyday-actions .like-count b { font-size: 22px; font-weight: 700; }
+section.everyday .everyday-actions .plus-one { position: absolute; left: 2px; top: -34px; font-style: normal; font-weight: 700; font-size: 26px; color: #f4637f; opacity: 0; }
+@keyframes plus-one-float {
+    0% { opacity: 0; transform: translateY(14px); }
+    25%, 70% { opacity: 1; transform: none; }
+    100% { opacity: 0; transform: translateY(-20px); }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .plus-one { animation: plus-one-float 1.8s 0.5s ease-out both; }
+    section.everyday:where(.bespoke-marp-active *) .everyday-actions .like-count b { display: inline-block; animation: heart-pop 450ms 0.7s ease-out both; }
+}
+
+/* Recap lists: left-aligned and numbered, one item added per page */
+section.recap .takeaways { width: fit-content; margin: 8px auto 0; text-align: left; counter-reset: recap; }
+section.recap .takeaways > div { display: flex; align-items: center; gap: 18px; }
+section.recap .takeaways > div::before { counter-increment: recap; content: counter(recap); flex: none; width: 46px; height: 46px; border-radius: 50%; background: #a8ce8d; color: #252722; font-size: 26px; font-weight: 700; line-height: 46px; text-align: center; }
