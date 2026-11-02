@@ -14,3 +14,71 @@ section {
     --matcha-code-fg: #416b28;
     --matcha-pre-bg: #dfe7d5;
 }
+
+/* 図やSNS画面の部品は共通CSSで暗い色を直接指定しているので、ライト用に置き換える */
+section.delivery .server,
+section.delivery .familiar-home,
+section.geography .geo-province,
+section .feed-screen { background: #f6f9f1; }
+section.delivery .server-b,
+section.geography .geo-provinces .geo-province:last-child,
+section .feed-screen:last-child { background: #eef6f8; }
+section.delivery .server-b,
+section.geography .geo-provinces .geo-province:last-child,
+section .feed-screen:last-child { border-color: #4fb0c8; }
+section.geography .geo-country { background: #f3f7ee; border-color: #7fa865; }
+section .network-node { background: #f6f9f1; }
+
+section.delivery .post-copy,
+section.delivery.familiar .post-original,
+section.delivery .follower-tag,
+section.geography .geo-cities > div,
+section .shared-note,
+section .letter small { background: #ffffff; border: 1px solid #b9cba9; }
+section.delivery .post-original { background: #e2edf0; }
+section.delivery .post-copy, section.delivery .follow-letter { box-shadow: 0 6px 18px #2933291f; }
+
+section.delivery small,
+section .note-user small,
+section .note-actions,
+section .note-time,
+section.geography small,
+section .feed-filler,
+section.everyday .everyday-owner,
+section.everyday .everyday-author small,
+section.everyday .everyday-actions,
+section.everyday .everyday-filler,
+section.everyday .everyday-empty,
+section.everyday .profile-search,
+section.everyday .profile-result small,
+section.everyday .everyday-reactions small { color: var(--matcha-muted); }
+section.delivery .post-copy small,
+section.delivery.familiar .post-original small,
+section.delivery .follow-letter small { color: #4b5a45; }
+
+section.delivery .connection,
+section.delivery .familiar-people span,
+section.delivery.familiar .familiar-route,
+section.geography .geo-cross,
+section .shared-origin,
+section.everyday .place-about > div { color: var(--matcha-emphasis); }
+
+section .note-example { background: #ffffff; border-color: #b9cba9; }
+section .note-avatar { background: #d5e4c6; }
+section .reactions span { background: #dceacf; }
+section .network-links { stroke: #8fa47f; }
+
+section.everyday .everyday-screen { background: #ffffff; }
+section.everyday .everyday-brand,
+section .feed-top { background: #d5e4c6; }
+section.everyday .everyday-brand.alternate,
+section .feed-screen:last-child .feed-top { background: #cfe5eb; }
+section.everyday .everyday-tab,
+section.everyday .place-post,
+section.everyday .place-about > div { border-color: #d3dec8; }
+section.everyday .everyday-post { background: #f6f9f1; }
+section.everyday .everyday-author img { background: #e4ecda; }
+section.everyday .everyday-reaction { background: #e4efd9; border-color: #7fa865; }
+section.everyday .everyday-actions .liked,
+section.everyday .everyday-actions .like-count,
+section.everyday .everyday-actions .plus-one { color: #e0455f; }

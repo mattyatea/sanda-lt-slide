@@ -370,6 +370,12 @@ section .profile-description { font-size: 30px; color: var(--matcha-emphasis); }
 section .profile-copy p { font-size: 28px; line-height: 1.9; margin: 25px 0; }
 section .profile-handle { font-size: 23px; color: var(--matcha-muted); }
 section .profile-portrait { width: 315px; height: 420px; object-fit: contain; border-radius: 14px; }
+section .profile-copy:has(.profile-qr) p { margin: 12px 0; }
+section .profile-qr { display: flex; gap: 36px; margin-top: 22px; }
+section .profile-qr figure { display: flex; align-items: center; gap: 14px; margin: 0; }
+section .profile-qr img { display: block; width: 120px; height: 120px; border-radius: 8px; }
+section .profile-qr figcaption { font-size: 18px; line-height: 1.45; color: var(--matcha-muted); }
+section .profile-qr figcaption b { font-size: 20px; font-weight: 500; color: var(--matcha-fg); }
 section .note-avatar-image { width: 64px; height: 64px; object-fit: cover; object-position: 50% 40%; border-radius: 14px; }
 
 section .diagram-avatar { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; object-position: 50% 40%; }
@@ -498,10 +504,10 @@ section.everyday .profile-follow { margin: 10px 24px 18px; }
 
 section .viewer-row { display: flex; align-items: center; justify-content: center; gap: 44px; }
 section .viewer-row .everyday-single { width: 720px; margin: 0; }
-section .viewer { margin: 0; width: 210px; text-align: center; }
+section .viewer { margin: 0; width: 260px; text-align: center; }
 section .viewer img { width: 190px; height: 200px; object-fit: contain; }
-section .viewer figcaption { font-size: 26px; margin-top: 8px; }
-section .viewer figcaption b { font-size: 30px; }
+section .viewer figcaption { font-size: 24px; margin-top: 8px; white-space: nowrap; }
+section .viewer figcaption b { font-size: 28px; }
 section .story-lead { margin: 0 0 6px; text-align: center; font-size: 26px; color: var(--matcha-muted); }
 section.everyday .everyday-reactions { display: flex; align-items: center; gap: 14px; margin: 0 14px 14px; }
 section.everyday .everyday-reaction { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 22px; background: #465b39; border: 1px solid #a8ce8d; font-size: 26px; }
@@ -603,3 +609,29 @@ section.everyday .everyday-actions .plus-one { position: absolute; left: 2px; to
 section.recap .takeaways { width: fit-content; margin: 8px auto 0; text-align: left; counter-reset: recap; }
 section.recap .takeaways > div { display: flex; align-items: center; gap: 18px; }
 section.recap .takeaways > div::before { counter-increment: recap; content: counter(recap); flex: none; width: 46px; height: 46px; border-radius: 50%; background: #a8ce8d; color: #252722; font-size: 26px; font-weight: 700; line-height: 46px; text-align: center; }
+
+/* Timeline: each page adds one post at the top; the view transition slides older posts down */
+section .viewer-pair > div { display: flex; justify-content: center; gap: 6px; }
+section .viewer-pair img { width: 124px; height: 170px; }
+section.tl-story .everyday-tab { padding: 10px 20px; font-size: 22px; }
+section.tl-story .tl-feed { height: 336px; overflow: hidden; }
+section.tl-story .viewer-row .everyday-post { max-height: 120px; margin: 10px 14px; padding: 10px 18px; box-sizing: border-box; }
+section.tl-story .viewer-row .everyday-post p { font-size: 25px; margin: 4px 0 0; }
+
+/* Entrances: the two places slide in and fill up row by row; a list's newly added item rises in */
+@keyframes enter-left { from { opacity: 0; transform: translateX(-48px); } }
+@keyframes enter-right { from { opacity: 0; transform: translateX(48px); } }
+@keyframes rise-in { from { opacity: 0; transform: translateY(24px); } }
+@media screen and (prefers-reduced-motion: no-preference) {
+    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:first-child { animation: enter-left 600ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-pair > .everyday-screen:last-child { animation: enter-right 600ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .place-post { animation: rise-in 500ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(2) { animation-delay: 0.6s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(3) { animation-delay: 0.9s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:first-child .place-post:nth-child(4) { animation-delay: 1.2s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(2) { animation-delay: 0.75s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(3) { animation-delay: 1.05s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-screen:last-child .place-post:nth-child(4) { animation-delay: 1.35s; }
+    section.compare-story:where(.bespoke-marp-active *) .everyday-caption { animation: rise-in 500ms 1.8s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section:where(.bespoke-marp-active *) .takeaways > div:not(.waiting):not(:has(~ div:not(.waiting))) { animation: rise-in 500ms 150ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+}

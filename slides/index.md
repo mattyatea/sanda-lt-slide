@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: mattyaski
+theme: mattyaski-light
 size: 16:9
 paginate: true
 transition: matcha 300ms
@@ -11,11 +11,9 @@ description: 疲れた時の別荘として、自分の「好き」を楽しめ�
 
 <!-- _class: lead story-title -->
 
-分散型SNSのすゝめ
+# 分散型SNSのすゝめ
 
-# 自分の「好き」を<br>楽しめる場所を見つけよう
-
-まっちゃてぃー。 / 三田学園文化祭LT会
+まっちゃてぃー。
 
 <!--
 0〜2分。TwitterやInstagramは使うけれど分散型SNSは初めて、という方に向けて話します。好きな話をできる場所をひとつ持ち帰ってほしい。
@@ -27,13 +25,13 @@ description: 疲れた時の別荘として、自分の「好き」を楽しめ�
 
 # 皆さん初めまして <img class="emoji" src="assets/twemoji/1f44b.svg" alt="👋">
 
-<div class="profile-layout"><div class="profile-copy"><div class="profile-name">まっちゃてぃー。</div><div class="profile-description">SNS（が好き）な人</div><p>趣味：コーディング、SNS</p><p>Misskeyの開発に参加<br>SNS「まっちゃすきー。」の運営</p><div class="profile-handle">@mattyatea</div></div><img class="profile-portrait" src="assets/profile/mattyatea.png" alt="過去の登壇資料で使っている、まっちゃてぃー。のアイコン"></div>
+<div class="profile-layout"><div class="profile-copy"><div class="profile-name">まっちゃてぃー。</div><p>趣味：コーディング、SNS</p><p>Misskeyの開発に参加<br>SNS「まっちゃすきー。」「PrisMisskey」の運営</p><div class="profile-handle">@mattyatea</div><div class="profile-qr"><figure><img src="assets/qr/x-mattyatea_.svg" width="120" height="120" alt="x.com/mattyatea_ へのQRコード"><figcaption><b>SNSのアカウント</b><br>X @mattyatea_</figcaption></figure><figure><img src="assets/qr/prismisskey.svg" width="120" height="120" alt="prismisskey.space へのQRコード"><figcaption><b>運営しているサービス</b><br>PrisMisskey</figcaption></figure></div></div><img class="profile-portrait" src="assets/profile/mattyatea.png" alt="過去の登壇資料で使っている、まっちゃてぃー。のアイコン"></div>
 
 <!--
 表紙の次に30〜40秒ほどで自己紹介します。
 皆さん、初めまして。まっちゃてぃー。です。
-過去の自己紹介でも「SNS（が好き）な人」と書いているくらい、SNSが好きです。
-趣味はコーディングとSNSで、Misskeyの開発に参加したり、「まっちゃすきー。」というSNSを運営したりしています。
+趣味はコーディングとSNSで、Misskeyの開発に参加したり、「まっちゃすきー。」と「PrisMisskey」というSNSを運営したりしています。
+Xと、運営しているサービス「PrisMisskey」（prismisskey.space）のQRコードも置いておきます。
 今日は使う側として、好きなことを楽しめる場所の話をします。
 自己紹介を含めて導入は約2分に収めます。
 「本番環境のDBを吹き飛ばした話」2〜4ページと「タイトルページ」2ページを参考にしています。
@@ -175,17 +173,7 @@ description: 疲れた時の別荘として、自分の「好き」を楽しめ�
 
 <div class="illustration-row"><figure class=""><img src="assets/irasutoya/game.png" alt="ゲームを楽しむ人"><figcaption>ゲームが好きなら<br>ゲーム好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/art.png" alt="タブレットで絵を描く人"><figcaption>絵が好きなら<br>お絵描き好きのSNSに</figcaption></figure><figure class=""><img src="assets/irasutoya/camera.png" alt="スマホで写真を撮る人"><figcaption>写真が好きなら<br>写真好きのSNSに</figcaption></figure></div>
 
-<!-- 前のページと同じ並びで、海や山がSNSに変わる。好きなことが多かったら、別荘はそれぞれ持てばいい。アカウントが増えることは問題にしない。 -->
-
----
-
-<!-- _class: statement -->
-
-ここでいう「別荘」は
-
-# そのSNSの<br>アカウントのこと
-
-<!-- 別荘を建てる、はそのSNSにアカウントを作ること。いつものSNSのアカウントはそのまま残しておけばいい。 -->
+<!-- 前のページと同じ並びで、海や山がSNSに変わる。好きなことが多かったら、別荘はそれぞれ持てばいい。アカウントが増えることは問題にしない。ここでいう「別荘」は、そのSNSのアカウントのことだと口で添える。いつものSNSのアカウントはそのまま残しておけばいい。 -->
 
 ---
 
@@ -221,21 +209,53 @@ description: 疲れた時の別荘として、自分の「好き」を楽しめ�
 
 ---
 
-<!-- _class: statement -->
+<!-- _class: story everyday tl-story -->
 
-AさんとBさんは ゲーム仲間
+# ゲームの話は ゲーム好きのSNSで
 
-# ゲームの話は<br>ゲーム好きのSNSで
+<div class="viewer-row"><figure class="viewer viewer-pair"><div><img src="assets/irasutoya/art.png" alt=""><img src="assets/irasutoya/game.png" alt=""></div><figcaption><b>Aさん</b>と<b>Bさん</b><br>ゲーム仲間</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-tab">タイムライン</div><div class="tl-feed"><div class="everyday-post" style="view-transition-name: tl-game-0"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>新作買った！今からやる</p></div></div></div></div></div>
+
+<!-- AさんとBさんはゲーム仲間。ゲームの話はゲーム好きのSNSでしている。ページを送るたびに、タイムラインに二人のゲームの話が流れてくる。 -->
+
+---
+
+<!-- _class: story everyday tl-story -->
+
+# ゲームの話は ゲーム好きのSNSで
+
+<div class="viewer-row"><figure class="viewer viewer-pair"><div><img src="assets/irasutoya/art.png" alt=""><img src="assets/irasutoya/game.png" alt=""></div><figcaption><b>Aさん</b>と<b>Bさん</b><br>ゲーム仲間</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-tab">タイムライン</div><div class="tl-feed"><div class="everyday-post" style="view-transition-name: tl-game-1"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>Bさん</b><small>いま</small></div><p>新作のボス強すぎない？</p></div><div class="everyday-post" style="view-transition-name: tl-game-0"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>新作買った！今からやる</p></div></div></div></div></div>
+
+<!-- Bさんの投稿が流れてくる。 -->
+
+---
+
+<!-- _class: story everyday tl-story -->
+
+# ゲームの話は ゲーム好きのSNSで
+
+<div class="viewer-row"><figure class="viewer viewer-pair"><div><img src="assets/irasutoya/art.png" alt=""><img src="assets/irasutoya/game.png" alt=""></div><figcaption><b>Aさん</b>と<b>Bさん</b><br>ゲーム仲間</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-tab">タイムライン</div><div class="tl-feed"><div class="everyday-post" style="view-transition-name: tl-game-2"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>第二形態で毎回やられる…</p></div><div class="everyday-post" style="view-transition-name: tl-game-1"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>Bさん</b><small>いま</small></div><p>新作のボス強すぎない？</p></div><div class="everyday-post" style="view-transition-name: tl-game-0"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>新作買った！今からやる</p></div></div></div></div></div>
+
+<!-- Aさんが返す。 -->
+
+---
+
+<!-- _class: story everyday tl-story -->
+
+# ゲームの話は ゲーム好きのSNSで
+
+<div class="viewer-row"><figure class="viewer viewer-pair"><div><img src="assets/irasutoya/art.png" alt=""><img src="assets/irasutoya/game.png" alt=""></div><figcaption><b>Aさん</b>と<b>Bさん</b><br>ゲーム仲間</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-tab">タイムライン</div><div class="tl-feed"><div class="everyday-post" style="view-transition-name: tl-game-3"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>Bさん</b><small>いま</small></div><p>今夜いっしょにやろう！</p></div><div class="everyday-post" style="view-transition-name: tl-game-2"><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>第二形態で毎回やられる…</p></div><div class="everyday-post" style="view-transition-name: tl-game-1"><div class="everyday-author"><img src="assets/irasutoya/game.png" alt=""><b>Bさん</b><small>いま</small></div><p>新作のボス強すぎない？</p></div></div></div></div></div>
+
+<!-- Bさんが誘う。こうやってゲームの話はゲーム好きのSNSで盛り上がっている。 -->
 
 ---
 
 <!-- _class: story everyday solo-story -->
 
-# Aさんの画面
+# Aさんのタイムライン
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="familiar-author"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>やっとボス倒せた〜！！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="familiar-author"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>やっとボス倒せた〜！！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- Aさんの投稿一覧。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- Aさんの投稿一覧。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
@@ -243,9 +263,9 @@ AさんとBさんは ゲーム仲間
 
 # フォローしているBさんにも もちろん出てきます
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="familiar-reader"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>やっとボス倒せた〜！！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="familiar-reader"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>やっとボス倒せた〜！！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- Bさんのホーム。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- Bさんのホーム。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
@@ -263,9 +283,9 @@ AさんとBさんは ゲーム仲間
 
 # でも Aさんの絵は お絵描きの別荘に
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="other-author"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="other-author"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- Aさんは描いた絵をお絵描き好きのSNSにアップロードして、ちゃんと使い分けている。でもAさんも、ゲーム仲間に「いいから見てよ」と絵を見てほしい。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- Aさんは描いた絵をお絵描き好きのSNSにアップロードして、ちゃんと使い分けている。でもAさんも、ゲーム仲間に「いいから見てよ」と絵を見てほしい。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
@@ -281,11 +301,11 @@ AさんとBさんは ゲーム仲間
 
 <!-- _class: story everyday solo-story -->
 
-# 建てなくても Bさんの画面に届きます
+# 建てなくても Bさんのタイムラインに届きます
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="other-reader"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="other-reader"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
-<!-- BさんのSNSには登録済みでAさんをフォローしている。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- BさんのSNSには登録済みでAさんをフォローしている。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
@@ -406,7 +426,7 @@ AさんとBさんは ゲーム仲間
 
 # Bさんが ハートを押すと...
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>の画面</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>のタイムライン</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
 <!-- Bさんのゲーム好きのSNSに届いたAさんの絵。ハートのボタンを押す。 -->
 
@@ -416,7 +436,7 @@ AさんとBさんは ゲーム仲間
 
 # Bさんが ハートを押すと...
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>の画面</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね済み" class="liked"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/game.png" alt=""><figcaption><b>Bさん</b>のタイムライン</figcaption></figure><div class="everyday-single"><div class="everyday-screen"><div class="everyday-brand">ゲーム好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね済み" class="liked"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div></div>
 
 <!-- ハートに色が付く。いつものSNSと同じ操作。 -->
 
@@ -426,9 +446,9 @@ AさんとBさんは ゲーム仲間
 
 # SNSが違っても Aさんに届きます
 
-<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>の画面</figcaption></figure><div class="everyday-single" data-story-scene="reaction-arrived"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね 1件" class="like-count"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg><b>1</b><i class="plus-one">+1</i></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div><div class="everyday-reactions"><small>Bさんがいいねしました</small></div></div></div></div>
+<div class="viewer-row"><figure class="viewer"><img src="assets/irasutoya/art.png" alt=""><figcaption><b>Aさん</b>のタイムライン</figcaption></figure><div class="everyday-single" data-story-scene="reaction-arrived"><div class="everyday-screen"><div class="everyday-brand alternate">お絵描き好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね 1件" class="like-count"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg><b>1</b><i class="plus-one">+1</i></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div><div class="everyday-reactions"><small>Bさんがいいねしました</small></div></div></div></div>
 
-<!-- Bさんのいいねが、お絵描き好きのSNSにいるAさんの画面に届いた。別荘が違っても、いいねまでちゃんと届く。ハートの数が+1される。 -->
+<!-- Bさんのいいねが、お絵描き好きのSNSにいるAさんのタイムラインに届いた。別荘が違っても、いいねまでちゃんと届く。ハートの数が+1される。 -->
 
 ---
 
@@ -460,7 +480,7 @@ AさんとBさんは ゲーム仲間
 
 <div class="everyday-single" data-story-scene="third-reader"><div class="everyday-screen"><div class="everyday-brand">音楽好きのSNS</div><div class="everyday-post "><div class="everyday-author"><img src="assets/irasutoya/art.png" alt=""><b>Aさん</b><small>いま</small></div><p>今日描いた絵、見て〜！</p><div class="everyday-actions"><span role="img" aria-label="返信"><svg aria-hidden="true" data-icon="arrow-back-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9 14l-4 -4l4 -4" /> <path d="M5 10h11a4 4 0 1 1 0 8h-1" /> </svg></span><span role="img" aria-label="リノート"><svg aria-hidden="true" data-icon="repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" /> <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" /> </svg></span><span role="img" aria-label="いいね"><svg aria-hidden="true" data-icon="heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /> </svg></span><span role="img" aria-label="その他"><svg aria-hidden="true" data-icon="dots" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> </svg></span></div></div></div></div>
 
-<!-- CさんもAさんをフォローしている。画面にある内容だけを説明し、次のページの答えは先に言わない。 -->
+<!-- CさんもAさんをフォローしている。タイムラインにある内容だけを説明し、次のページの答えは先に言わない。 -->
 
 ---
 
@@ -534,7 +554,7 @@ AさんとBさんは ゲーム仲間
 
 # Misskeyのすゝめ
 
-まっちゃてぃー。 / 三田学園文化祭LT会
+まっちゃてぃー。
 
 <!-- ここからはMisskeyのおすすめ。タイトルコールのあと休憩を挟む。休憩中もこのページのまま。 -->
 
@@ -656,7 +676,7 @@ Discordより ちょっと大変だけど...
 
 ---
 
-<!-- _class: story everyday -->
+<!-- _class: story everyday compare-story -->
 
 # どっちが居心地よさそうですか？
 
@@ -699,8 +719,6 @@ Discordより ちょっと大変だけど...
 ---
 
 <!-- _class: statement -->
-
-私はSNSが大好きなので
 
 # 皆さんにも<br>「好き」を楽しんでほしい
 
