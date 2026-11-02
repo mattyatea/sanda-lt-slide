@@ -575,13 +575,13 @@ Xと、運営しているサービス「PrisMisskey」（prismisskey.space）の
 
 ---
 
-<!-- _class: statement -->
+<!-- _class: story misskey-facts -->
 
-さっきの共通のルールを使った
+# Misskeyは こんなSNS
 
-# 好きな人が 好きなように<br>立てられるSNSの一つ
+<div class="misskey-about"><div class="fact-list"><div><b>開発開始</b>：2014年〜（10年以上）</div><div><b>生まれた国</b>：日本</div><div><b>作っている人</b>：個人とボランティア</div><div><b>立てられる人</b>：誰でも</div><div><b>特徴</b>：絵文字で反応できる</div></div><figure class="misskey-site"><div class="site-window"><div class="site-bar"><i></i><i></i><i></i><span>misskey-hub.net</span></div><img src="assets/misskey/misskey-hub.jpg" alt="Misskeyの公式サイト Misskey Hub のトップページ"></div><span class="misskey-mark"><img src="assets/misskey/mi.svg" alt="Misskeyのマーク"></span><figcaption>公式サイト「Misskey Hub」</figcaption></figure></div>
 
-<!-- Misskeyは、さっきの共通のルールで繋がれるSNSのアプリ。Twitterみたいなアプリを、色んな人が自分で立てて運営している。 -->
+<!-- Misskeyは2014年に、日本でsyuiloさんが作り始めたSNS。会社ではなく個人とボランティアで開発されている。作り方（ソースコード）が公開されていて、誰でも自分のサーバーを作って運営者になれる。2018年から、ほかの分散型SNSともつながるようになった。名前は、作者が当時聴いていたMay'nの「Brain Diver」の歌詞から。出典：Misskey Hub「Misskeyについて」。右は公式サイトのトップページ。 -->
 
 ---
 
@@ -778,6 +778,10 @@ Discordより ちょっと大変だけど...
 イラスト　[いらすとや](https://www.irasutoya.com/)
 
 絵文字　[Twemoji](https://github.com/twitter/twemoji) — Twitter, Inc. and other contributors / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Misskeyロゴ　[misskey-dev/assets](https://github.com/misskey-dev/assets) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+公式サイトの画面　[Misskey Hub](https://misskey-hub.net/ja/)
 
 <!--
 本編には含めない参考資料。素材の個別出典はnotes/visual-assets.html。投稿例は架空で、実ユーザーからの引用はありません。

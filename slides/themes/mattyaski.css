@@ -416,7 +416,7 @@ section.geography .geo-cross { align-self: center; font-size: 44px; color: #a8ce
 /* Twemoji reactions: static for export, live updates in the HTML presentation. */
 section .live-reactions { gap: 10px; min-height: 43px; }
 section .live-reactions .live-reaction { display: inline-flex; align-items: center; gap: 8px; min-width: 55px; padding: 5px 10px; }
-section .live-reactions .reaction-count { padding: 0; background: transparent; font-variant-numeric: tabular-nums; }
+section .live-reactions .reaction-count { display: inline-block; padding: 0; background: transparent; font-variant-numeric: tabular-nums; }
 section .live-reactions img { width: 29px; height: 29px; object-fit: contain; }
 section .live-reactions.is-live .live-reaction[hidden] { display: none; }
 
@@ -739,3 +739,28 @@ section.closing h1 { font-size: 60px; }
 
 section.references p { margin: 12px 0; font-size: 26px; }
 section.references a { text-decoration: none; font-weight: 500; }
+
+/* Misskey facts: short "label: point" rows on the left, the official site in a browser window on the right */
+section.misskey-facts .misskey-about { display: flex; align-items: center; justify-content: center; gap: 48px; }
+section.misskey-facts .fact-list { width: 500px; text-align: left; font-size: 30px; line-height: 1.5; }
+section.misskey-facts .fact-list > div { padding: 14px 4px; border-bottom: 1px solid var(--matcha-divider); }
+section.misskey-facts .fact-list > div:last-child { border-bottom: 0; }
+section.misskey-facts .fact-list b { font-weight: 700; color: var(--matcha-emphasis); }
+section.misskey-facts .misskey-site { position: relative; width: 540px; margin: 0; }
+section.misskey-facts .site-window { overflow: hidden; border: 1px solid #c9d8bb; border-radius: 16px; background: #ffffff; box-shadow: 0 14px 36px #29332a26; }
+section.misskey-facts .site-bar { display: flex; align-items: center; gap: 7px; padding: 10px 14px; background: #eef3e8; border-bottom: 1px solid #d3dec8; }
+section.misskey-facts .site-bar i { width: 11px; height: 11px; border-radius: 50%; background: #c9d4bf; }
+section.misskey-facts .site-bar span { margin-left: 10px; padding: 2px 14px; border-radius: 999px; background: #ffffff; font-size: 15px; color: #596451; }
+section.misskey-facts .site-window > img { display: block; width: 100%; height: auto; }
+section.misskey-facts .misskey-mark { position: absolute; right: -22px; bottom: 18px; display: grid; place-items: center; width: 84px; height: 84px; border-radius: 22px; background: linear-gradient(135deg, #a8d60a, #5fb300); box-shadow: 0 8px 20px #29332a33; }
+section.misskey-facts .misskey-mark img { width: 58px; height: auto; }
+section.misskey-facts .misskey-site figcaption { margin-top: 14px; text-align: center; font-size: 20px; color: var(--matcha-muted); }
+@media screen and (prefers-reduced-motion: no-preference) {
+    section.misskey-facts:where(.bespoke-marp-active *) .fact-list > div { animation: rise-in 350ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.misskey-facts:where(.bespoke-marp-active *) .fact-list > div:nth-child(2) { animation-delay: 80ms; }
+    section.misskey-facts:where(.bespoke-marp-active *) .fact-list > div:nth-child(3) { animation-delay: 160ms; }
+    section.misskey-facts:where(.bespoke-marp-active *) .fact-list > div:nth-child(4) { animation-delay: 240ms; }
+    section.misskey-facts:where(.bespoke-marp-active *) .fact-list > div:nth-child(5) { animation-delay: 320ms; }
+    section.misskey-facts:where(.bespoke-marp-active *) .misskey-site { animation: enter-right 400ms 120ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    section.misskey-facts:where(.bespoke-marp-active *) .misskey-mark { animation: heart-pop 350ms 450ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+}
